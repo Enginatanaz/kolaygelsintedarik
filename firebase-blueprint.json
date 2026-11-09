@@ -1,0 +1,354 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "User profile with role-based access control (ADMIN, OPERATOR, SUPPLIER)",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "maxLength": 128 },
+        "fullName": { "type": "string", "maxLength": 100 },
+        "email": { "type": "string", "maxLength": 150 },
+        "phone": { "type": "string", "maxLength": 30 },
+        "role": { "type": "string", "enum": ["ADMIN", "OPERATOR", "SUPPLIER"] },
+        "supplierId": { "type": "string", "maxLength": 64 },
+        "active": { "type": "boolean" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["uid", "fullName", "email", "role", "active"]
+    },
+    "Supplier": {
+      "title": "Supplier",
+      "description": "Logistics supplier company record",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 64 },
+        "companyName": { "type": "string", "maxLength": 100 },
+        "contactPerson": { "type": "string", "maxLength": 100 },
+        "phone": { "type": "string", "maxLength": 30 },
+        "email": { "type": "string", "maxLength": 150 },
+        "active": { "type": "boolean" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["companyName", "contactPerson", "phone", "email", "active"]
+    },
+    "Facility": {
+      "title": "Facility",
+      "description": "Logistics hub, plant or warehouse facility",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 64 },
+        "facilityName": { "type": "string", "maxLength": 100 },
+        "city": { "type": "string", "maxLength": 60 },
+        "active": { "type": "boolean" }
+      },
+      "required": ["facilityName", "city", "active"]
+    },
+    "VehicleRequest": {
+      "title": "VehicleRequest",
+      "description": "Vehicle procurement demand posted by Admin",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 64 },
+        "requestNumber": { "type": "string", "maxLength": 30 },
+        "originFacility": { "type": "string", "maxLength": 100 },
+        "destination": { "type": "string", "maxLength": 100 },
+        "vehicleType": { "type": "string", "maxLength": 50 },
+        "totalQuantity": { "type": "number" },
+        "distributionMode": { "type": "string", "enum": ["MANUAL", "OPEN"] },
+        "requiredDate": { "type": "string", "maxLength": 30 },
+        "requiredTime": { "type": "string", "maxLength": 20 },
+        "description": { "type": "string", "maxLength": 500 },
+        "status": { "type": "string", "enum": ["DRAFT", "PENDING", "PARTIALLY_FULFILLED", "FULFILLED", "CANCELLED"] },
+        "createdBy": { "type": "string", "maxLength": 128 },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["requestNumber", "originFacility", "destination", "vehicleType", "totalQuantity", "distributionMode", "requiredDate", "status"]
+    },
+    "RequestAssignment": {
+      "title": "RequestAssignment",
+      "description": "Supplier assignment record for a specific request",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 64 },
+        "requestId": { "type": "string", "maxLength": 64 },
+        "supplierId": { "type": "string", "maxLength": 64 },
+        "assignedQuantity": { "type": "number" },
+        "offeredQuantity": { "type": "number" },
+        "confirmedQuantity": { "type": "number" },
+        "status": { "type": "string", "enum": ["PENDING", "OFFERED", "CONFIRMED", "REJECTED", "COMPLETED"] },
+        "responseNote": { "type": "string", "maxLength": 500 },
+        "sentAt": { "type": "string" },
+        "respondedAt": { "type": "string" }
+      },
+      "required": ["requestId", "supplierId", "assignedQuantity", "offeredQuantity", "confirmedQuantity", "status"]
+    },
+    "Vehicle": {
+      "title": "Vehicle",
+      "description": "Assigned vehicle and driver assigned to a request",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 64 },
+        "requestId": { "type": "string", "maxLength": 64 },
+        "assignmentId": { "type": "string", "maxLength": 64 },
+        "supplierId": { "type": "string", "maxLength": 64 },
+        "plate": { "type": "string", "maxLength": 30 },
+        "driverName": { "type": "string", "maxLength": 80 },
+        "driverPhone": { "type": "string", "maxLength": 30 },
+        "vehicleType": { "type": "string", "maxLength": 50 },
+        "originFacility": { "type": "string", "maxLength": 100 },
+        "destination": { "type": "string", "maxLength": 100 },
+        "requiredDate": { "type": "string", "maxLength": 30 },
+        "expectedArrival": { "type": "string", "maxLength": 30 },
+        "actualArrival": { "type": "string", "maxLength": 30 },
+        "status": {
+          "type": "string",
+          "enum": [
+            "SUPPLIER_REPORTED",
+            "REVISION_PENDING",
+            "APPROVED",
+            "REJECTED",
+            "ON_THE_WAY",
+            "ARRIVED",
+            "CANCELLED",
+            "TALEP_GONDERILDI",
+            "YANIT_BEKLENIYOR",
+            "ARAC_BILDIRILDI",
+            "YONETICI_ONAYI",
+            "TEYIT_EDILDI",
+            "YOLDA",
+            "TESISE_GIRIS_YAPTI",
+            "GECIKTI",
+            "ARIZALI",
+            "IPTAL"
+          ]
+        },
+        "description": { "type": "string", "maxLength": 500 },
+        "revisionCount": { "type": "number" },
+        "lastRevisionAt": { "type": "string" },
+        "lastRevisionBy": { "type": "string", "maxLength": 128 },
+        "createdBy": { "type": "string", "maxLength": 128 },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["requestId", "supplierId", "plate", "driverName", "driverPhone", "status"]
+    },
+    "VehicleEvent": {
+      "title": "VehicleEvent",
+      "description": "Log of status changes, issues, delays, breakdowns or arrivals for vehicles",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 64 },
+        "vehicleId": { "type": "string", "maxLength": 64 },
+        "eventType": { "type": "string", "maxLength": 50 },
+        "oldValues": { "type": "object" },
+        "newValues": { "type": "object" },
+        "description": { "type": "string", "maxLength": 500 },
+        "createdBy": { "type": "string", "maxLength": 128 },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["vehicleId", "eventType", "description", "createdBy"]
+    },
+    "Message": {
+      "title": "Message",
+      "description": "Communication log with driver via WhatsApp or SMS",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 64 },
+        "vehicleId": { "type": "string", "maxLength": 64 },
+        "driverPhone": { "type": "string", "maxLength": 30 },
+        "channel": { "type": "string", "enum": ["WHATSAPP", "SMS"] },
+        "direction": { "type": "string", "enum": ["OUTBOUND", "INBOUND"] },
+        "content": { "type": "string", "maxLength": 1000 },
+        "providerMessageId": { "type": "string", "maxLength": 128 },
+        "deliveryStatus": { "type": "string", "enum": ["PENDING", "SENT", "DELIVERED", "READ", "FAILED", "RECEIVED"] },
+        "actionStatus": { "type": "string", "enum": ["DRAFT", "WHATSAPP_OPENED", "SMS_OPENED", "CANCELLED"] },
+        "templateId": { "type": "string", "maxLength": 64 },
+        "requestId": { "type": "string", "maxLength": 64 },
+        "sentBy": { "type": "string", "maxLength": 128 },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["driverPhone", "channel", "direction", "content", "deliveryStatus"]
+    },
+    "MessageLog": {
+      "title": "MessageLog",
+      "description": "Audit record of driver messages launched via WhatsApp wa.me or SMS url scheme",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 64 },
+        "messageId": { "type": "string", "maxLength": 64 },
+        "vehicleId": { "type": "string", "maxLength": 64 },
+        "driverId": { "type": "string", "maxLength": 64 },
+        "plate": { "type": "string", "maxLength": 30 },
+        "phoneNumber": { "type": "string", "maxLength": 30 },
+        "requestId": { "type": "string", "maxLength": 64 },
+        "channel": { "type": "string", "enum": ["WHATSAPP", "SMS"] },
+        "messageText": { "type": "string", "maxLength": 1000 },
+        "templateId": { "type": "string", "maxLength": 64 },
+        "actionStatus": { "type": "string", "enum": ["DRAFT", "WHATSAPP_OPENED", "SMS_OPENED", "CANCELLED"] },
+        "createdBy": { "type": "string", "maxLength": 128 },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["messageId", "phoneNumber", "channel", "messageText", "actionStatus", "createdBy"]
+    },
+    "Notification": {
+      "title": "Notification",
+      "description": "System alerts and supplier-isolated operational notifications",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 64 },
+        "notificationId": { "type": "string", "maxLength": 64 },
+        "idempotencyKey": { "type": "string", "maxLength": 128 },
+        "recipientUserId": { "type": "string", "maxLength": 128 },
+        "recipientUid": { "type": "string", "maxLength": 128 },
+        "recipientRole": { "type": "string", "maxLength": 30 },
+        "supplierId": { "type": "string", "maxLength": 64 },
+        "requestId": { "type": "string", "maxLength": 64 },
+        "type": { "type": "string", "maxLength": 50 },
+        "title": { "type": "string", "maxLength": 120 },
+        "body": { "type": "string", "maxLength": 500 },
+        "relatedVehicleId": { "type": "string", "maxLength": 64 },
+        "relatedRequestId": { "type": "string", "maxLength": 64 },
+        "isRead": { "type": "boolean" },
+        "read": { "type": "boolean" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["title", "body", "read"]
+    },
+    "SupplierNotificationSettings": {
+      "title": "SupplierNotificationSettings",
+      "description": "Per-supplier email verification and multi-channel notification preferences",
+      "type": "object",
+      "properties": {
+        "supplierId": { "type": "string", "maxLength": 64 },
+        "email": { "type": "string", "maxLength": 150 },
+        "pendingEmail": { "type": "string", "maxLength": 150 },
+        "verificationCode": { "type": "string", "maxLength": 16 },
+        "emailVerified": { "type": "boolean" },
+        "emailEnabled": { "type": "boolean" },
+        "pushEnabled": { "type": "boolean" },
+        "inAppEnabled": { "type": "boolean" },
+        "mandatoryCriticalPolicy": { "type": "boolean" },
+        "eventPreferences": { "type": "object" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["supplierId", "email", "emailVerified", "emailEnabled", "pushEnabled", "inAppEnabled"]
+    },
+    "UserDeviceToken": {
+      "title": "UserDeviceToken",
+      "description": "FCM / Web Push device registration token for mobile and desktop devices",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 64 },
+        "userId": { "type": "string", "maxLength": 128 },
+        "supplierId": { "type": "string", "maxLength": 64 },
+        "fcmToken": { "type": "string", "maxLength": 256 },
+        "deviceType": { "type": "string", "maxLength": 32 },
+        "userAgent": { "type": "string", "maxLength": 256 },
+        "createdAt": { "type": "string" },
+        "lastActiveAt": { "type": "string" }
+      },
+      "required": ["userId", "fcmToken", "deviceType"]
+    },
+    "NotificationLog": {
+      "title": "NotificationLog",
+      "description": "Multi-channel notification delivery log (EMAIL, PUSH, IN_APP)",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 64 },
+        "notificationId": { "type": "string", "maxLength": 64 },
+        "idempotencyKey": { "type": "string", "maxLength": 128 },
+        "supplierId": { "type": "string", "maxLength": 64 },
+        "supplierName": { "type": "string", "maxLength": 120 },
+        "requestId": { "type": "string", "maxLength": 64 },
+        "requestNumber": { "type": "string", "maxLength": 32 },
+        "eventType": { "type": "string", "maxLength": 50 },
+        "channel": { "type": "string", "enum": ["EMAIL", "PUSH", "IN_APP"] },
+        "recipient": { "type": "string", "maxLength": 256 },
+        "status": { "type": "string", "maxLength": 40 },
+        "errorMessage": { "type": "string", "maxLength": 500 },
+        "emailSubject": { "type": "string", "maxLength": 200 },
+        "emailHtmlPreview": { "type": "string", "maxLength": 20000 },
+        "retryCount": { "type": "number" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["notificationId", "idempotencyKey", "eventType", "channel", "recipient", "status"]
+    },
+    "AuditLog": {
+      "title": "AuditLog",
+      "description": "Immutable security and operational audit trail",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 64 },
+        "actorUid": { "type": "string", "maxLength": 128 },
+        "actorRole": { "type": "string", "maxLength": 30 },
+        "action": { "type": "string", "maxLength": 80 },
+        "collection": { "type": "string", "maxLength": 50 },
+        "documentId": { "type": "string", "maxLength": 64 },
+        "oldValues": { "type": "object" },
+        "newValues": { "type": "object" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["actorUid", "actorRole", "action", "collection", "documentId"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "User profile with role-based access control and supplier mapping"
+    },
+    "/suppliers/{supplierId}": {
+      "schema": "Supplier",
+      "description": "Logistics supplier companies: Deniz, Alp Özler, Tekno, Ekol, Ayz"
+    },
+    "/facilities/{facilityId}": {
+      "schema": "Facility",
+      "description": "Origin and destination logistic centers"
+    },
+    "/vehicleRequests/{requestId}": {
+      "schema": "VehicleRequest",
+      "description": "Vehicle procurement demands"
+    },
+    "/requestAssignments/{assignmentId}": {
+      "schema": "RequestAssignment",
+      "description": "Supplier vehicle quota assignments and offers"
+    },
+    "/vehicles/{vehicleId}": {
+      "schema": "Vehicle",
+      "description": "Assigned vehicles, drivers, tracking states and status updates"
+    },
+    "/vehicleEvents/{eventId}": {
+      "schema": "VehicleEvent",
+      "description": "Event log for vehicle delays, breakdowns, arrivals"
+    },
+    "/messages/{messageId}": {
+      "schema": "Message",
+      "description": "Driver messaging logs via WhatsApp / SMS"
+    },
+    "/messageLogs/{logId}": {
+      "schema": "MessageLog",
+      "description": "Detailed audit log of driver WhatsApp / SMS dispatch actions"
+    },
+    "/notifications/{notificationId}": {
+      "schema": "Notification",
+      "description": "User operational alerts and supplier-isolated notification items"
+    },
+    "/supplierNotificationSettings/{supplierId}": {
+      "schema": "SupplierNotificationSettings",
+      "description": "Supplier email verification and notification channel preferences"
+    },
+    "/userDeviceTokens/{tokenId}": {
+      "schema": "UserDeviceToken",
+      "description": "Registered FCM / Web Push device tokens"
+    },
+    "/notificationLogs/{logId}": {
+      "schema": "NotificationLog",
+      "description": "Multi-channel notification delivery logs (EMAIL, PUSH, IN_APP)"
+    },
+    "/auditLogs/{logId}": {
+      "schema": "AuditLog",
+      "description": "Audit logging for changes, assignments and transfers"
+    }
+  }
+}

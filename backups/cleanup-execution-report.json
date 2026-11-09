@@ -1,0 +1,41 @@
+{
+  "executedAt": "2026-11-09T19:26:05.105Z",
+  "results": {
+    "vehicleRequests": {
+      "deleted": 8,
+      "status": "SUCCESS"
+    },
+    "requestAssignments": {
+      "deleted": 10,
+      "status": "SUCCESS"
+    },
+    "supplierRequestViews": {
+      "deleted": 7,
+      "status": "SUCCESS"
+    },
+    "vehicles": {
+      "deleted": 2,
+      "status": "SUCCESS"
+    },
+    "vehicleEvents": {
+      "deleted": 8,
+      "status": "SUCCESS"
+    },
+    "messages": {
+      "deleted": 12,
+      "status": "SUCCESS"
+    },
+    "notifications": {
+      "deleted": 10,
+      "status": "SUCCESS"
+    },
+    "auditLogs": {
+      "deleted": 0,
+      "status": "ERROR: 7 PERMISSION_DENIED: Missing or insufficient permissions."
+    },
+    "dailyRequestDrafts": {
+      "deleted": 0,
+      "status": "ERROR: Missing or insufficient permissions."
+    }
+  }
+}

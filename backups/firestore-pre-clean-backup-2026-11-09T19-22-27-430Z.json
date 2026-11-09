@@ -1,0 +1,2179 @@
+{
+  "createdAt": "2026-11-09T19:22:27.430Z",
+  "collections": {
+    "vehicleRequests": [
+      {
+        "id": "6HdVuK6GS4tvevzkKDUN",
+        "updatedAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794244850,
+          "nanoseconds": 335000000
+        },
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794244839,
+          "nanoseconds": 2000000
+        },
+        "requiredTime": "08:30",
+        "originFacility": "ADANA TM",
+        "createdBy": "usr-admin",
+        "requiredDate": "2026-11-09",
+        "destination": "AFYON TM",
+        "description": "",
+        "status": "PENDING",
+        "requestNumber": "REQ-838996",
+        "totalQuantity": 5,
+        "routeStops": [],
+        "vehicleType": "Kamyon (10 Teker)",
+        "distributionMode": "OPEN"
+      },
+      {
+        "id": "C5NAAeXjULQpWgZjBHQ0",
+        "requiredTime": "08:30",
+        "requiredDate": "2026-11-09",
+        "destination": "AFYON TM",
+        "description": "",
+        "originFacility": "ADANA TM",
+        "status": "PENDING",
+        "distributionMode": "OPEN",
+        "createdBy": "usr-admin",
+        "vehicleType": "TIR (Tenteli 13.60)",
+        "routeStops": [],
+        "totalQuantity": 5,
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794242329,
+          "nanoseconds": 943000000
+        },
+        "updatedAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794244794,
+          "nanoseconds": 444000000
+        },
+        "requestNumber": "REQ-329935"
+      },
+      {
+        "id": "JbTDKqx8PDWpPZBw1E0b",
+        "vehicleType": "TIR (Tenteli 13.60)",
+        "originFacility": "İstanbul Tuzla Lojistik Merkezi",
+        "distributionMode": "MANUAL",
+        "totalQuantity": 5,
+        "destination": "Ankara Temelli Aktarma Merkezi",
+        "description": "",
+        "requiredTime": "09:00",
+        "requestNumber": "REQ-912672",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794238912,
+          "nanoseconds": 741000000
+        },
+        "updatedAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794238912,
+          "nanoseconds": 741000000
+        },
+        "status": "PENDING",
+        "requiredDate": "2026-11-10",
+        "createdBy": "usr-admin"
+      },
+      {
+        "id": "YE1f9RBQeie8FOMbgsK4",
+        "vehicleType": "TIR (Tenteli 13.60)",
+        "requiredTime": "08:30",
+        "createdBy": "usr-admin",
+        "originFacility": "ADANA TM",
+        "requestNumber": "REQ-614828",
+        "status": "PENDING",
+        "totalQuantity": 5,
+        "requiredDate": "2026-11-09",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239614,
+          "nanoseconds": 869000000
+        },
+        "updatedAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239614,
+          "nanoseconds": 869000000
+        },
+        "distributionMode": "OPEN",
+        "routeStops": [
+          {
+            "facilityId": "aksaray-tm",
+            "facilityName": "AKSARAY TM",
+            "sequence": 1,
+            "note": "",
+            "expectedArrival": ""
+          }
+        ],
+        "destination": "AFYON TM",
+        "description": ""
+      },
+      {
+        "id": "j10wmVXBzLwgsNNQ5c0N",
+        "vehicleType": "TIR (Tenteli 13.60)",
+        "status": "PENDING",
+        "requestNumber": "REQ-985660",
+        "destination": "Ankara Temelli Aktarma Merkezi",
+        "description": "",
+        "distributionMode": "OPEN",
+        "requiredDate": "2026-11-09",
+        "totalQuantity": 10,
+        "updatedAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239004,
+          "nanoseconds": 603000000
+        },
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794238985,
+          "nanoseconds": 800000000
+        },
+        "requiredTime": "08:30",
+        "originFacility": "Test Hub",
+        "createdBy": "usr-admin"
+      },
+      {
+        "id": "k4FahLMMt76q0h5cdpId",
+        "originFacility": "GEBZE ANA DEPO",
+        "requestNumber": "REQ-902644",
+        "totalQuantity": 3,
+        "routeStops": [
+          {
+            "facilityName": "BURSA AKTARMA MERKEZİ",
+            "facilityId": "f1",
+            "sequence": 1
+          }
+        ],
+        "status": "PENDING",
+        "vehicleType": "Tır (13.60 Tenteli)",
+        "description": "Acil sevkiyat hattı",
+        "destination": "İZMİR BÖLGE DEPO",
+        "createdBy": "usr-admin",
+        "requiredTime": "08:30",
+        "updatedAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794250902,
+          "nanoseconds": 652000000
+        },
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794250902,
+          "nanoseconds": 652000000
+        },
+        "distributionMode": "MANUAL",
+        "requiredDate": "2026-11-12"
+      },
+      {
+        "id": "kJsllcIIZIZLx6eDLBIx",
+        "createdBy": "usr-admin",
+        "originFacility": "ANKARA TM",
+        "requiredTime": "09:00",
+        "updatedAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239569,
+          "nanoseconds": 703000000
+        },
+        "vehicleType": "TIR (Tenteli 13.60)",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239569,
+          "nanoseconds": 703000000
+        },
+        "distributionMode": "MANUAL",
+        "requiredDate": "2026-11-12",
+        "description": "",
+        "destination": "ADANA TM",
+        "requestNumber": "REQ-569564",
+        "totalQuantity": 4,
+        "status": "PENDING",
+        "routeStops": [
+          {
+            "sequence": 1,
+            "facilityId": "aksaray-tm",
+            "facilityName": "AKSARAY TM"
+          },
+          {
+            "facilityId": "konya-tm",
+            "facilityName": "KONYA TM",
+            "sequence": 2
+          }
+        ]
+      },
+      {
+        "id": "xDsx6pHhI5yzPqh4k9lU",
+        "status": "PENDING",
+        "vehicleType": "TIR (Tenteli 13.60)",
+        "originFacility": "ADANA TM",
+        "requiredTime": "08:30",
+        "destination": "AFYON TM",
+        "description": "",
+        "createdBy": "usr-admin",
+        "distributionMode": "OPEN",
+        "routeStops": [],
+        "requiredDate": "2026-11-09",
+        "requestNumber": "REQ-851801",
+        "updatedAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239851,
+          "nanoseconds": 903000000
+        },
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239851,
+          "nanoseconds": 903000000
+        },
+        "totalQuantity": 1
+      }
+    ],
+    "requestAssignments": [
+      {
+        "id": "DstRXVjINBkCZ3s2zPmX",
+        "offeredQuantity": 0,
+        "sentAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794244839,
+          "nanoseconds": 2000000
+        },
+        "requestId": "6HdVuK6GS4tvevzkKDUN",
+        "supplierId": "tekno-lojistik",
+        "status": "REJECTED",
+        "confirmedQuantity": 0,
+        "assignedQuantity": 5
+      },
+      {
+        "id": "H9z7nmcDpHYEcVFYmJxw",
+        "assignedQuantity": 3,
+        "status": "PENDING",
+        "confirmedQuantity": 0,
+        "supplierId": "alp-ozler-lojistik",
+        "requestId": "JbTDKqx8PDWpPZBw1E0b",
+        "offeredQuantity": 0,
+        "sentAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794238912,
+          "nanoseconds": 741000000
+        }
+      },
+      {
+        "id": "POKukcgbrB4qt9voJ60V",
+        "assignedQuantity": 10,
+        "offeredQuantity": 0,
+        "status": "REJECTED",
+        "requestId": "j10wmVXBzLwgsNNQ5c0N",
+        "supplierId": "tekno-lojistik",
+        "confirmedQuantity": 0,
+        "sentAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794238985,
+          "nanoseconds": 800000000
+        }
+      },
+      {
+        "id": "Vd40h8sIFwHHpL2oEPTH",
+        "supplierId": "deniz-lojistik",
+        "offeredQuantity": 0,
+        "sentAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794250902,
+          "nanoseconds": 652000000
+        },
+        "confirmedQuantity": 0,
+        "assignedQuantity": 1,
+        "status": "PENDING",
+        "requestId": "k4FahLMMt76q0h5cdpId"
+      },
+      {
+        "id": "gzMNSjRxPhxjXWUjE4ew",
+        "sentAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794242329,
+          "nanoseconds": 943000000
+        },
+        "offeredQuantity": 0,
+        "confirmedQuantity": 0,
+        "requestId": "C5NAAeXjULQpWgZjBHQ0",
+        "status": "REJECTED",
+        "assignedQuantity": 5,
+        "supplierId": "deniz-lojistik"
+      },
+      {
+        "id": "hDC5dDcK605QOsrzNapf",
+        "requestId": "JbTDKqx8PDWpPZBw1E0b",
+        "supplierId": "deniz-lojistik",
+        "sentAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794238912,
+          "nanoseconds": 741000000
+        },
+        "offeredQuantity": 0,
+        "status": "PENDING",
+        "confirmedQuantity": 0,
+        "assignedQuantity": 2
+      },
+      {
+        "id": "hr9SqFeyPtsnhXDxsq6E",
+        "supplierId": "ayz-lojistik",
+        "confirmedQuantity": 0,
+        "status": "PENDING",
+        "assignedQuantity": 2,
+        "sentAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794250902,
+          "nanoseconds": 652000000
+        },
+        "requestId": "k4FahLMMt76q0h5cdpId",
+        "offeredQuantity": 0
+      },
+      {
+        "id": "pIk3xWWZIT1qL5oPaRAA",
+        "requestId": "YE1f9RBQeie8FOMbgsK4",
+        "supplierId": "tekno-lojistik",
+        "status": "PENDING",
+        "offeredQuantity": 0,
+        "confirmedQuantity": 0,
+        "sentAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239614,
+          "nanoseconds": 869000000
+        },
+        "assignedQuantity": 5
+      },
+      {
+        "id": "vbMvArFrRcKHAx66Z3BK",
+        "requestId": "kJsllcIIZIZLx6eDLBIx",
+        "sentAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239569,
+          "nanoseconds": 703000000
+        },
+        "supplierId": "tekno-lojistik",
+        "offeredQuantity": 0,
+        "confirmedQuantity": 0,
+        "status": "PENDING",
+        "assignedQuantity": 4
+      },
+      {
+        "id": "zQJQtyFnmpVJvVsUvefF",
+        "status": "PENDING",
+        "supplierId": "tekno-lojistik",
+        "sentAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239851,
+          "nanoseconds": 903000000
+        },
+        "requestId": "xDsx6pHhI5yzPqh4k9lU",
+        "assignedQuantity": 1,
+        "confirmedQuantity": 0,
+        "offeredQuantity": 0
+      }
+    ],
+    "supplierRequestViews": [
+      {
+        "id": "ayz-lojistik_k4FahLMMt76q0h5cdpId",
+        "responseNote": "",
+        "vehicleType": "Tır (13.60 Tenteli)",
+        "updatedAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794250902,
+          "nanoseconds": 694000000
+        },
+        "assignedQuantity": 2,
+        "distributionMode": "MANUAL",
+        "offeredQuantity": 0,
+        "requiredDate": "2026-11-12",
+        "status": "PENDING",
+        "routeStops": [
+          {
+            "sequence": 1,
+            "facilityName": "BURSA AKTARMA MERKEZİ",
+            "facilityId": "f1"
+          }
+        ],
+        "requestId": "k4FahLMMt76q0h5cdpId",
+        "assignmentStatus": "PENDING",
+        "requiredTime": "08:30",
+        "supplierId": "ayz-lojistik",
+        "confirmedQuantity": 0,
+        "requestNumber": "REQ-902644",
+        "assignmentId": "hr9SqFeyPtsnhXDxsq6E",
+        "destination": "İZMİR BÖLGE DEPO",
+        "originFacility": "GEBZE ANA DEPO"
+      },
+      {
+        "id": "deniz-lojistik_C5NAAeXjULQpWgZjBHQ0",
+        "status": "PENDING",
+        "responseNote": "",
+        "updatedAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794242330,
+          "nanoseconds": 13000000
+        },
+        "vehicleType": "TIR (Tenteli 13.60)",
+        "confirmedQuantity": 0,
+        "assignmentStatus": "PENDING",
+        "requestNumber": "REQ-329935",
+        "assignedQuantity": 5,
+        "offeredQuantity": 0,
+        "requestId": "C5NAAeXjULQpWgZjBHQ0",
+        "originFacility": "ADANA TM",
+        "distributionMode": "OPEN",
+        "routeStops": [],
+        "requiredDate": "2026-11-09",
+        "assignmentId": "gzMNSjRxPhxjXWUjE4ew",
+        "destination": "AFYON TM",
+        "supplierId": "deniz-lojistik",
+        "requiredTime": "08:30"
+      },
+      {
+        "id": "deniz-lojistik_k4FahLMMt76q0h5cdpId",
+        "destination": "İZMİR BÖLGE DEPO",
+        "responseNote": "",
+        "requestNumber": "REQ-902644",
+        "supplierId": "deniz-lojistik",
+        "originFacility": "GEBZE ANA DEPO",
+        "distributionMode": "MANUAL",
+        "updatedAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794250903,
+          "nanoseconds": 191000000
+        },
+        "offeredQuantity": 0,
+        "assignedQuantity": 1,
+        "routeStops": [
+          {
+            "sequence": 1,
+            "facilityName": "BURSA AKTARMA MERKEZİ",
+            "facilityId": "f1"
+          }
+        ],
+        "assignmentStatus": "PENDING",
+        "status": "PENDING",
+        "requiredDate": "2026-11-12",
+        "assignmentId": "Vd40h8sIFwHHpL2oEPTH",
+        "vehicleType": "Tır (13.60 Tenteli)",
+        "requestId": "k4FahLMMt76q0h5cdpId",
+        "requiredTime": "08:30",
+        "confirmedQuantity": 0
+      },
+      {
+        "id": "tekno-lojistik_6HdVuK6GS4tvevzkKDUN",
+        "assignmentStatus": "PENDING",
+        "confirmedQuantity": 0,
+        "offeredQuantity": 0,
+        "responseNote": "",
+        "originFacility": "ADANA TM",
+        "destination": "AFYON TM",
+        "requestId": "6HdVuK6GS4tvevzkKDUN",
+        "assignmentId": "DstRXVjINBkCZ3s2zPmX",
+        "vehicleType": "Kamyon (10 Teker)",
+        "supplierId": "tekno-lojistik",
+        "requestNumber": "REQ-838996",
+        "requiredTime": "08:30",
+        "distributionMode": "OPEN",
+        "status": "PENDING",
+        "routeStops": [],
+        "updatedAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794244839,
+          "nanoseconds": 66000000
+        },
+        "assignedQuantity": 5,
+        "requiredDate": "2026-11-09"
+      },
+      {
+        "id": "tekno-lojistik_YE1f9RBQeie8FOMbgsK4",
+        "confirmedQuantity": 0,
+        "responseNote": "",
+        "destination": "AFYON TM",
+        "requestId": "YE1f9RBQeie8FOMbgsK4",
+        "assignmentStatus": "PENDING",
+        "assignedQuantity": 5,
+        "offeredQuantity": 0,
+        "supplierId": "tekno-lojistik",
+        "requiredDate": "2026-11-09",
+        "status": "PENDING",
+        "distributionMode": "OPEN",
+        "assignmentId": "pIk3xWWZIT1qL5oPaRAA",
+        "updatedAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239614,
+          "nanoseconds": 931000000
+        },
+        "routeStops": [
+          {
+            "facilityId": "aksaray-tm",
+            "expectedArrival": "",
+            "sequence": 1,
+            "facilityName": "AKSARAY TM",
+            "note": ""
+          }
+        ],
+        "requestNumber": "REQ-614828",
+        "vehicleType": "TIR (Tenteli 13.60)",
+        "originFacility": "ADANA TM",
+        "requiredTime": "08:30"
+      },
+      {
+        "id": "tekno-lojistik_kJsllcIIZIZLx6eDLBIx",
+        "requestId": "kJsllcIIZIZLx6eDLBIx",
+        "originFacility": "ANKARA TM",
+        "routeStops": [
+          {
+            "sequence": 1,
+            "facilityName": "AKSARAY TM",
+            "facilityId": "aksaray-tm"
+          },
+          {
+            "facilityName": "KONYA TM",
+            "facilityId": "konya-tm",
+            "sequence": 2
+          }
+        ],
+        "requiredDate": "2026-11-12",
+        "status": "PENDING",
+        "confirmedQuantity": 0,
+        "supplierId": "tekno-lojistik",
+        "destination": "ADANA TM",
+        "distributionMode": "MANUAL",
+        "assignmentId": "vbMvArFrRcKHAx66Z3BK",
+        "requiredTime": "09:00",
+        "assignedQuantity": 4,
+        "requestNumber": "REQ-569564",
+        "responseNote": "",
+        "assignmentStatus": "PENDING",
+        "vehicleType": "TIR (Tenteli 13.60)",
+        "updatedAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239569,
+          "nanoseconds": 777000000
+        },
+        "offeredQuantity": 0
+      },
+      {
+        "id": "tekno-lojistik_xDsx6pHhI5yzPqh4k9lU",
+        "supplierId": "tekno-lojistik",
+        "responseNote": "",
+        "vehicleType": "TIR (Tenteli 13.60)",
+        "assignmentStatus": "PENDING",
+        "offeredQuantity": 0,
+        "requestId": "xDsx6pHhI5yzPqh4k9lU",
+        "routeStops": [],
+        "originFacility": "ADANA TM",
+        "status": "PENDING",
+        "requiredDate": "2026-11-09",
+        "assignmentId": "zQJQtyFnmpVJvVsUvefF",
+        "assignedQuantity": 1,
+        "confirmedQuantity": 0,
+        "requestNumber": "REQ-851801",
+        "updatedAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239851,
+          "nanoseconds": 979000000
+        },
+        "destination": "AFYON TM",
+        "distributionMode": "OPEN",
+        "requiredTime": "08:30"
+      }
+    ],
+    "vehicles": [
+      {
+        "id": "MEfqICjapZ2OFCuxaYGU",
+        "status": "APPROVED",
+        "actualArrival": "",
+        "updatedAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794242281,
+          "nanoseconds": 163000000
+        },
+        "description": "",
+        "destination": "AFYON TM",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794242228,
+          "nanoseconds": 989000000
+        },
+        "driverPhone": "+90 5454724790",
+        "plate": "34ABC159",
+        "routeStops": [],
+        "createdBy": "usr-tekno_lojistik",
+        "supplierId": "tekno-lojistik",
+        "requestId": "xDsx6pHhI5yzPqh4k9lU",
+        "expectedArrival": "08:30",
+        "assignmentId": "",
+        "driverName": "Engin Atanaz",
+        "vehicleType": "TIR (Tenteli 13.60)",
+        "requiredDate": "2026-11-09",
+        "originFacility": "ADANA TM",
+        "revisionCount": 0
+      },
+      {
+        "id": "lBUEgfeiKkKr5r6W5hYp",
+        "status": "APPROVED",
+        "driverName": "FDSAFASD",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794240564,
+          "nanoseconds": 923000000
+        },
+        "updatedAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794242294,
+          "nanoseconds": 122000000
+        },
+        "vehicleType": "Kamyon (10 Teker)",
+        "actualArrival": "",
+        "plate": "FDSAFSAD",
+        "originFacility": "ADANA TM",
+        "createdBy": "usr-tekno_lojistik",
+        "routeStops": [],
+        "requiredDate": "2026-11-09",
+        "requestId": "xDsx6pHhI5yzPqh4k9lU",
+        "supplierId": "tekno-lojistik",
+        "assignmentId": "",
+        "driverPhone": "+90 5454724790",
+        "destination": "AFYON TM",
+        "expectedArrival": "09:00"
+      }
+    ],
+    "vehicleEvents": [
+      {
+        "id": "QfZWoXJywXbD72IWRHWD",
+        "description": "Şoföre WHATSAPP iletildi: \"Aracınızın tahmini varış saati nedir?...\"",
+        "vehicleId": "MEfqICjapZ2OFCuxaYGU",
+        "eventType": "WHATSAPP_GONDERILDI",
+        "createdBy": "usr-operator",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794243563,
+          "nanoseconds": 830000000
+        }
+      },
+      {
+        "id": "ZFkxcf8hiW94g8IK0kXU",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794242294,
+          "nanoseconds": 190000000
+        },
+        "createdBy": "usr-admin",
+        "description": "Yönetici tarafından araç onaylandı.",
+        "eventType": "APPROVED",
+        "vehicleId": "lBUEgfeiKkKr5r6W5hYp"
+      },
+      {
+        "id": "gZHzgV9b0Cl57ohLYxUk",
+        "eventType": "TEST",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794244285,
+          "nanoseconds": 334000000
+        },
+        "vehicleId": "v1"
+      },
+      {
+        "id": "isKI3oAY4cAt44PVNh9y",
+        "vehicleId": "MEfqICjapZ2OFCuxaYGU",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794242281,
+          "nanoseconds": 233000000
+        },
+        "createdBy": "usr-admin",
+        "description": "Yönetici tarafından araç onaylandı.",
+        "eventType": "APPROVED"
+      },
+      {
+        "id": "l9e3SgWQMbGcjLcdjbEo",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794242229,
+          "nanoseconds": 57000000
+        },
+        "createdBy": "usr-tekno_lojistik",
+        "description": "Araç bildirildi: 34ABC159 - Şoför: Engin Atanaz (+90 5454724790)",
+        "eventType": "SUPPLIER_REPORTED",
+        "vehicleId": "MEfqICjapZ2OFCuxaYGU"
+      },
+      {
+        "id": "lkXRTkUe4qs8hiFAfype",
+        "eventType": "WHATSAPP_ACILDI",
+        "createdBy": "usr-operator",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794244459,
+          "nanoseconds": 801000000
+        },
+        "description": "Şoför için WHATSAPP bağlantısı açıldı (WHATSAPP_OPENED)",
+        "vehicleId": "MEfqICjapZ2OFCuxaYGU"
+      },
+      {
+        "id": "uN6fGyMcvQGNzKCKvfgo",
+        "description": "Araç bildirildi: FDSAFSAD - Şoför: FDSAFASD",
+        "eventType": "ARAC_BILDIRILDI",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794240565,
+          "nanoseconds": 62000000
+        },
+        "createdBy": "usr-tekno_lojistik",
+        "vehicleId": "lBUEgfeiKkKr5r6W5hYp"
+      },
+      {
+        "id": "vLIAZYnIt65CMuTGyNmH",
+        "description": "Şoför için WHATSAPP bağlantısı açıldı (WHATSAPP_OPENED)",
+        "eventType": "WHATSAPP_ACILDI",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794244688,
+          "nanoseconds": 567000000
+        },
+        "createdBy": "usr-operator",
+        "vehicleId": "MEfqICjapZ2OFCuxaYGU"
+      }
+    ],
+    "messages": [
+      {
+        "id": "6MDkNI9ykMdcWOJ5Ddw7",
+        "direction": "OUTBOUND",
+        "requestId": "",
+        "sentBy": "usr-operator",
+        "templateId": "",
+        "deliveryStatus": "SENT",
+        "content": "Merhaba Ahmet Yılmaz, 34ABC123 plakalı aracınızın tahmini varış saati nedir?",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794244337,
+          "nanoseconds": 646000000
+        },
+        "driverPhone": "905321234567",
+        "driverName": "Ahmet Yılmaz",
+        "actionStatus": "WHATSAPP_OPENED",
+        "plate": "34ABC123",
+        "providerMessageId": "link-1794244337634-9611",
+        "vehicleId": "",
+        "channel": "WHATSAPP"
+      },
+      {
+        "id": "LgQUs1bQz1EKb5yDY0vU",
+        "channel": "WHATSAPP",
+        "driverName": "Ahmet Yılmaz",
+        "direction": "OUTBOUND",
+        "content": "Merhaba Ahmet Yılmaz, 34ABC123 plakalı aracınızın tahmini varış saati nedir?",
+        "requestId": "",
+        "driverPhone": "905321234567",
+        "plate": "34ABC123",
+        "actionStatus": "WHATSAPP_OPENED",
+        "sentBy": "usr-operator",
+        "providerMessageId": "link-123",
+        "deliveryStatus": "SENT",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794244343,
+          "nanoseconds": 910000000
+        },
+        "templateId": ""
+      },
+      {
+        "id": "SGUiyc3yJc01HTivODFw",
+        "templateId": "",
+        "actionStatus": "WHATSAPP_OPENED",
+        "direction": "OUTBOUND",
+        "requestId": "",
+        "deliveryStatus": "SENT",
+        "sentBy": "usr-operator",
+        "vehicleId": "",
+        "channel": "WHATSAPP",
+        "providerMessageId": "link-1794244363827-1805",
+        "driverName": "Ahmet Yılmaz",
+        "plate": "34ABC123",
+        "driverPhone": "905321234567",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794244363,
+          "nanoseconds": 851000000
+        },
+        "content": "Merhaba Ahmet Yılmaz, 34ABC123 plakalı aracınızın tahmini varış saati nedir?"
+      },
+      {
+        "id": "SY9ov4u2eEPq1tNlbOAP",
+        "driverPhone": "905321234567",
+        "channel": "WHATSAPP",
+        "templateId": "",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794244747,
+          "nanoseconds": 30000000
+        },
+        "sentBy": "usr-operator",
+        "vehicleId": "",
+        "content": "Test mesajı",
+        "deliveryStatus": "SENT",
+        "plate": "34ABC123",
+        "direction": "OUTBOUND",
+        "actionStatus": "WHATSAPP_OPENED",
+        "requestId": "",
+        "providerMessageId": "link-1794244747024-9986",
+        "driverName": "Ahmet Yılmaz"
+      },
+      {
+        "id": "YIEIsTfG3vHel0MbJRfx",
+        "vehicleId": "",
+        "channel": "WHATSAPP",
+        "actionStatus": "WHATSAPP_OPENED",
+        "templateId": "",
+        "content": "Merhaba Ahmet Yılmaz, 34ABC123 plakalı aracınızın tahmini varış saati nedir?",
+        "deliveryStatus": "SENT",
+        "providerMessageId": "link-1794244326260-3571",
+        "sentBy": "usr-operator",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794244326,
+          "nanoseconds": 294000000
+        },
+        "driverPhone": "905321234567",
+        "plate": "34ABC123",
+        "driverName": "Ahmet Yılmaz",
+        "direction": "OUTBOUND",
+        "requestId": ""
+      },
+      {
+        "id": "gWqy3zUxWGOZMDObwoc7",
+        "channel": "WHATSAPP",
+        "vehicleId": "",
+        "plate": "34ABC123",
+        "deliveryStatus": "SENT",
+        "actionStatus": "WHATSAPP_OPENED",
+        "templateId": "",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794244274,
+          "nanoseconds": 570000000
+        },
+        "content": "Test mesajı",
+        "sentBy": "usr-operator",
+        "providerMessageId": "link-1794244274537-2936",
+        "driverName": "Ahmet Yılmaz",
+        "driverPhone": "905321234567",
+        "direction": "OUTBOUND",
+        "requestId": ""
+      },
+      {
+        "id": "gbIFTshFmsrYTfWd6KxF",
+        "sentBy": "usr-operator",
+        "direction": "OUTBOUND",
+        "requestId": "xDsx6pHhI5yzPqh4k9lU",
+        "driverName": "Engin Atanaz",
+        "providerMessageId": "link-1794244688417-3133",
+        "driverPhone": "905454724790",
+        "plate": "34ABC159",
+        "content": "Merhaba Engin Atanaz, 34ABC159 plakalı aracınızın tahmini varış saati nedir?",
+        "templateId": "tpl-eta",
+        "vehicleId": "MEfqICjapZ2OFCuxaYGU",
+        "channel": "WHATSAPP",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794244688,
+          "nanoseconds": 455000000
+        },
+        "deliveryStatus": "SENT",
+        "actionStatus": "WHATSAPP_OPENED"
+      },
+      {
+        "id": "lCv0PuPSd7B9Goc0xlXv",
+        "content": "Merhaba Engin Atanaz, 34ABC159 plakalı aracınızın tahmini varış saati nedir?",
+        "deliveryStatus": "SENT",
+        "driverPhone": "905454724790",
+        "templateId": "tpl-eta",
+        "plate": "34ABC159",
+        "requestId": "xDsx6pHhI5yzPqh4k9lU",
+        "actionStatus": "WHATSAPP_OPENED",
+        "sentBy": "usr-operator",
+        "direction": "OUTBOUND",
+        "channel": "WHATSAPP",
+        "vehicleId": "MEfqICjapZ2OFCuxaYGU",
+        "providerMessageId": "link-1794244459663-5322",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794244459,
+          "nanoseconds": 691000000
+        },
+        "driverName": "Engin Atanaz"
+      },
+      {
+        "id": "lP2CvrjTP0XoEyWZJk1g",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794244285,
+          "nanoseconds": 202000000
+        },
+        "channel": "WHATSAPP",
+        "content": "test"
+      },
+      {
+        "id": "p8e7exldfdC48sImRSFm",
+        "direction": "OUTBOUND",
+        "driverPhone": "905321234567",
+        "channel": "WHATSAPP",
+        "requestId": "",
+        "templateId": "",
+        "plate": "34ABC123",
+        "content": "Merhaba Ahmet Yılmaz, 34ABC123 plakalı aracınızın tahmini varış saati nedir?",
+        "sentBy": "usr-operator",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794244404,
+          "nanoseconds": 217000000
+        },
+        "driverName": "Ahmet Yılmaz",
+        "deliveryStatus": "SENT",
+        "actionStatus": "WHATSAPP_OPENED",
+        "providerMessageId": "link-1794244404208-5689",
+        "vehicleId": ""
+      },
+      {
+        "id": "u7vYskjiiiZaqjWiVLxm",
+        "providerMessageId": "prov-1794243563695-783",
+        "content": "Aracınızın tahmini varış saati nedir?",
+        "direction": "OUTBOUND",
+        "driverPhone": "+90 5454724790",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794243563,
+          "nanoseconds": 724000000
+        },
+        "plate": "34ABC159",
+        "vehicleId": "MEfqICjapZ2OFCuxaYGU",
+        "sentBy": "usr-operator",
+        "deliveryStatus": "DELIVERED",
+        "driverName": "Engin Atanaz",
+        "channel": "WHATSAPP"
+      },
+      {
+        "id": "vTCVadCuktR5BBQMkNRK",
+        "providerMessageId": "link-1794244115350-9937",
+        "vehicleId": "MEfqICjapZ2OFCuxaYGU",
+        "driverName": "Engin Atanaz",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794244115,
+          "nanoseconds": 403000000
+        },
+        "actionStatus": "WHATSAPP_OPENED",
+        "templateId": "tpl-eta",
+        "plate": "34ABC159",
+        "channel": "WHATSAPP",
+        "content": "Merhaba Engin Atanaz, 34ABC159 plakalı aracınızın tahmini varış saati nedir?",
+        "deliveryStatus": "SENT",
+        "driverPhone": "905454724790",
+        "sentBy": "usr-operator",
+        "direction": "OUTBOUND",
+        "requestId": "xDsx6pHhI5yzPqh4k9lU"
+      }
+    ],
+    "notifications": [
+      {
+        "id": "dbO9ohnrGj4r062JGUNO",
+        "body": "Tedarikçi: Tekno Lojistik\nPlaka: 34ABC159\nŞoför: Engin Atanaz (+90 5454724790)\nRota: ADANA TM → AFYON TM",
+        "recipientUid": null,
+        "type": "VEHICLE_REPORTED",
+        "read": true,
+        "relatedRequestId": "xDsx6pHhI5yzPqh4k9lU",
+        "title": "YENİ ARAÇ BİLDİRİMİ",
+        "recipientRole": "ALL",
+        "relatedVehicleId": "MEfqICjapZ2OFCuxaYGU",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794242229,
+          "nanoseconds": 176000000
+        }
+      },
+      {
+        "id": "log_1794250902876_louwv",
+        "requestNumber": "REQ-902644",
+        "status": "DELIVERED",
+        "isDeliveryLog": true,
+        "isRead": true,
+        "title": "[LOG] IN_APP - NEW_REQUEST",
+        "read": true,
+        "supplierId": "ayz-lojistik",
+        "requestId": "k4FahLMMt76q0h5cdpId",
+        "recipient": "Ayz Lojistik",
+        "eventType": "NEW_REQUEST",
+        "idempotencyKey": "NEW_REQUEST_k4FahLMMt76q0h5cdpId_ayz-lojistik_v1",
+        "channel": "IN_APP",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794250902,
+          "nanoseconds": 880000000
+        },
+        "body": "Ayz Lojistik",
+        "notificationId": "ntf_1794250902832_ufuz9",
+        "supplierName": "Ayz Lojistik"
+      },
+      {
+        "id": "log_1794250902954_rywpq",
+        "requestId": "k4FahLMMt76q0h5cdpId",
+        "read": true,
+        "supplierId": "ayz-lojistik",
+        "channel": "EMAIL",
+        "requestNumber": "REQ-902644",
+        "emailHtmlPreview": "<!DOCTYPE html>\n<html lang=\"tr\">\n<head>\n  <meta charset=\"UTF-8\" />\n  <title>[TEDARİK360] Yeni Araç Talebi - #REQ-902644 (GEBZE ANA DEPO → İZMİR BÖLGE DEPO)</title>\n</head>\n<body style=\"margin:0;padding:0;background-color:#F1F5F9;font-family:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#0F172A;\">\n  <table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"background-color:#F1F5F9;padding:24px 12px;\">\n    <tr>\n      <td align=\"center\">\n        <table width=\"620\" cellpadding=\"0\" cellspacing=\"0\" style=\"max-width:620px;width:100%;background-color:#FFFFFF;border-radius:16px;overflow:hidden;border:1px solid #E2E8F0;box-shadow:0 10px 25px -5px rgba(9,43,96,0.08);\">\n          <!-- Header -->\n          <tr>\n            <td style=\"background:linear-gradient(135deg,#092B60 0%,#0E3A7E 100%);padding:24px 32px;\">\n              <table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\">\n                <tr>\n                  <td>\n                    <span style=\"display:inline-block;background-color:#FFD000;color:#092B60;font-weight:900;font-size:11px;letter-spacing:1.5px;padding:4px 10px;border-radius:6px;text-transform:uppercase;\">TEDARİK360 KURUMSAL LOJİSTİK</span>\n                    <h1 style=\"margin:10px 0 0 0;color:#FFFFFF;font-size:20px;font-weight:800;letter-spacing:-0.3px;\">YENİ ARAÇ TALEBİ</h1>\n                  </td>\n                  <td align=\"right\" style=\"vertical-align:top;\">\n                    <span style=\"display:inline-block;background-color:rgba(255,255,255,0.14);color:#FFFFFF;font-family:monospace;font-size:13px;font-weight:700;padding:6px 12px;border-radius:8px;border:1px solid rgba(255,255,255,0.2);\">\n                      #REQ-902644\n                    </span>\n                  </td>\n                </tr>\n              </table>\n            </td>\n          </tr>\n\n          <!-- Greeting -->\n          <tr>\n            <td style=\"padding:28px 32px 12px 32px;\">\n              <p style=\"margin:0;font-size:14px;color:#475569;\">Sayın <strong style=\"color:#092B60;font-weight:800;\">Ayz Lojistik</strong> Operasyon Yetkilisi,</p>\n              <p style=\"margin:8px 0 0 0;font-size:13px;line-height:1.6;color:#64748B;\">\n                Firmanıza atanmış olan araç tedarik operasyonu kapsamında aşağıdaki bildirim detayları oluşturulmuştur. Gizlilik politikası gereği bu bildirim yalnızca firmanıza özel kontenjan bilgilerini içerir.\n              </p>\n              \n            </td>\n          </tr>\n\n          <!-- Details Table -->\n          <tr>\n            <td style=\"padding:12px 32px 24px 32px;\">\n              <table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border:1px solid #E2E8F0;border-radius:12px;overflow:hidden;font-size:13px;\">\n                <tr style=\"background-color:#F8FAFC;\">\n                  <td style=\"padding:11px 16px;font-weight:700;color:#475569;width:38%;border-bottom:1px solid #E2E8F0;\">Firma Adı</td>\n                  <td style=\"padding:11px 16px;font-weight:800;color:#092B60;border-bottom:1px solid #E2E8F0;\">Ayz Lojistik</td>\n                </tr>\n                <tr>\n                  <td style=\"padding:11px 16px;font-weight:700;color:#475569;border-bottom:1px solid #E2E8F0;\">Talep Numarası</td>\n                  <td style=\"padding:11px 16px;font-family:monospace;font-weight:800;color:#0F172A;border-bottom:1px solid #E2E8F0;\">#REQ-902644</td>\n                </tr>\n                <tr style=\"background-color:#F8FAFC;\">\n                  <td style=\"padding:11px 16px;font-weight:700;color:#475569;border-bottom:1px solid #E2E8F0;\">Çıkış Tesisi</td>\n                  <td style=\"padding:11px 16px;font-weight:800;color:#0F172A;border-bottom:1px solid #E2E8F0;\">GEBZE ANA DEPO</td>\n                </tr>\n                <tr>\n                  <td style=\"padding:11px 16px;font-weight:700;color:#475569;border-bottom:1px solid #E2E8F0;\">Uğrak Noktaları</td>\n                  <td style=\"padding:11px 16px;font-weight:600;color:#334155;border-bottom:1px solid #E2E8F0;\">1. BURSA AKTARMA MERKEZİ</td>\n                </tr>\n                <tr style=\"background-color:#F8FAFC;\">\n                  <td style=\"padding:11px 16px;font-weight:700;color:#475569;border-bottom:1px solid #E2E8F0;\">Varış Tesisi</td>\n                  <td style=\"padding:11px 16px;font-weight:800;color:#0F172A;border-bottom:1px solid #E2E8F0;\">İZMİR BÖLGE DEPO</td>\n                </tr>\n                <tr>\n                  <td style=\"padding:11px 16px;font-weight:700;color:#475569;border-bottom:1px solid #E2E8F0;\">Araç Tipi</td>\n                  <td style=\"padding:11px 16px;font-weight:700;color:#092B60;border-bottom:1px solid #E2E8F0;\">Tır (13.60 Tenteli)</td>\n                </tr>\n                <tr style=\"background-color:#EFF6FF;\">\n                  <td style=\"padding:11px 16px;font-weight:800;color:#1E3A8A;border-bottom:1px solid #DBEAFE;\">Firmanıza Atanan Araç İhtiyacı</td>\n                  <td style=\"padding:11px 16px;font-weight:900;font-size:15px;color:#1D4ED8;border-bottom:1px solid #DBEAFE;\">2 Araç</td>\n                </tr>\n                <tr>\n                  <td style=\"padding:11px 16px;font-weight:700;color:#475569;border-bottom:1px solid #E2E8F0;\">Gerekli Tarih ve Saat</td>\n                  <td style=\"padding:11px 16px;font-weight:800;color:#0F172A;border-bottom:1px solid #E2E8F0;\">2026-11-12 • Saat 08:30</td>\n                </tr>\n                <tr style=\"background-color:#F8FAFC;\">\n                  <td style=\"padding:11px 16px;font-weight:700;color:#475569;\">Operasyon Açıklaması</td>\n                  <td style=\"padding:11px 16px;color:#334155;\">Acil sevkiyat hattı</td>\n                </tr>\n              </table>\n            </td>\n          </tr>\n\n          <!-- CTA Button -->\n          <tr>\n            <td align=\"center\" style=\"padding:4px 32px 28px 32px;\">\n              <a href=\"https://ais-dev-aparysydolqse2logjjvm3-872015695292.europe-west2.run.app/?requestId=k4FahLMMt76q0h5cdpId\" style=\"display:inline-block;background-color:#092B60;color:#FFD000;text-decoration:none;font-weight:800;font-size:13px;letter-spacing:0.4px;padding:14px 28px;border-radius:10px;\">\n                TEDARİKÇİ PANELİNE GİT →\n              </a>\n            </td>\n          </tr>\n\n          <!-- Footer -->\n          <tr>\n            <td style=\"background-color:#F8FAFC;padding:16px 32px;border-top:1px solid #E2E8F0;text-align:center;\">\n              <p style=\"margin:0;font-size:11px;color:#94A3B8;\">\n                Bu e-posta TEDARİK360 Otomatik Bildirim Servisi tarafından yalnızca <strong>Ayz Lojistik</strong> için oluşturulmuştur.\n              </p>\n            </td>\n          </tr>\n        </table>\n      </td>\n    </tr>\n  </table>\n</body>\n</html>",
+        "supplierName": "Ayz Lojistik",
+        "isDeliveryLog": true,
+        "body": "operasyon@ayzlojistik.com",
+        "isRead": true,
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794250902,
+          "nanoseconds": 992000000
+        },
+        "status": "DELIVERED",
+        "title": "[LOG] EMAIL - NEW_REQUEST",
+        "eventType": "NEW_REQUEST",
+        "idempotencyKey": "NEW_REQUEST_k4FahLMMt76q0h5cdpId_ayz-lojistik_v1",
+        "errorMessage": "",
+        "notificationId": "ntf_1794250902832_ufuz9",
+        "emailSubject": "[TEDARİK360] Yeni Araç Talebi - #REQ-902644 (GEBZE ANA DEPO → İZMİR BÖLGE DEPO)",
+        "recipient": "operasyon@ayzlojistik.com"
+      },
+      {
+        "id": "log_1794250903081_z19od",
+        "isRead": true,
+        "read": true,
+        "notificationId": "ntf_1794250902832_ufuz9",
+        "requestId": "k4FahLMMt76q0h5cdpId",
+        "idempotencyKey": "NEW_REQUEST_k4FahLMMt76q0h5cdpId_ayz-lojistik_v1",
+        "status": "DELIVERED",
+        "supplierName": "Ayz Lojistik",
+        "requestNumber": "REQ-902644",
+        "channel": "PUSH",
+        "isDeliveryLog": true,
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794250903,
+          "nanoseconds": 98000000
+        },
+        "body": "Ayz Lojistik (Web Push Kanalı)",
+        "supplierId": "ayz-lojistik",
+        "eventType": "NEW_REQUEST",
+        "title": "[LOG] PUSH - NEW_REQUEST",
+        "recipient": "Ayz Lojistik (Web Push Kanalı)"
+      },
+      {
+        "id": "log_1794250903355_re25t",
+        "idempotencyKey": "NEW_REQUEST_k4FahLMMt76q0h5cdpId_deniz-lojistik_v1",
+        "requestId": "k4FahLMMt76q0h5cdpId",
+        "channel": "IN_APP",
+        "notificationId": "ntf_1794250903314_gujju",
+        "body": "Deniz Lojistik",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794250903,
+          "nanoseconds": 361000000
+        },
+        "supplierId": "deniz-lojistik",
+        "isRead": true,
+        "requestNumber": "REQ-902644",
+        "isDeliveryLog": true,
+        "status": "DELIVERED",
+        "eventType": "NEW_REQUEST",
+        "read": true,
+        "supplierName": "Deniz Lojistik",
+        "recipient": "Deniz Lojistik",
+        "title": "[LOG] IN_APP - NEW_REQUEST"
+      },
+      {
+        "id": "log_1794250903412_8gij8",
+        "isRead": true,
+        "requestNumber": "REQ-902644",
+        "eventType": "NEW_REQUEST",
+        "status": "DELIVERED",
+        "recipient": "operasyon@denizlojistik.com",
+        "isDeliveryLog": true,
+        "read": true,
+        "emailSubject": "[TEDARİK360] Yeni Araç Talebi - #REQ-902644 (GEBZE ANA DEPO → İZMİR BÖLGE DEPO)",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794250903,
+          "nanoseconds": 439000000
+        },
+        "title": "[LOG] EMAIL - NEW_REQUEST",
+        "errorMessage": "",
+        "supplierId": "deniz-lojistik",
+        "channel": "EMAIL",
+        "body": "operasyon@denizlojistik.com",
+        "notificationId": "ntf_1794250903314_gujju",
+        "idempotencyKey": "NEW_REQUEST_k4FahLMMt76q0h5cdpId_deniz-lojistik_v1",
+        "requestId": "k4FahLMMt76q0h5cdpId",
+        "emailHtmlPreview": "<!DOCTYPE html>\n<html lang=\"tr\">\n<head>\n  <meta charset=\"UTF-8\" />\n  <title>[TEDARİK360] Yeni Araç Talebi - #REQ-902644 (GEBZE ANA DEPO → İZMİR BÖLGE DEPO)</title>\n</head>\n<body style=\"margin:0;padding:0;background-color:#F1F5F9;font-family:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#0F172A;\">\n  <table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"background-color:#F1F5F9;padding:24px 12px;\">\n    <tr>\n      <td align=\"center\">\n        <table width=\"620\" cellpadding=\"0\" cellspacing=\"0\" style=\"max-width:620px;width:100%;background-color:#FFFFFF;border-radius:16px;overflow:hidden;border:1px solid #E2E8F0;box-shadow:0 10px 25px -5px rgba(9,43,96,0.08);\">\n          <!-- Header -->\n          <tr>\n            <td style=\"background:linear-gradient(135deg,#092B60 0%,#0E3A7E 100%);padding:24px 32px;\">\n              <table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\">\n                <tr>\n                  <td>\n                    <span style=\"display:inline-block;background-color:#FFD000;color:#092B60;font-weight:900;font-size:11px;letter-spacing:1.5px;padding:4px 10px;border-radius:6px;text-transform:uppercase;\">TEDARİK360 KURUMSAL LOJİSTİK</span>\n                    <h1 style=\"margin:10px 0 0 0;color:#FFFFFF;font-size:20px;font-weight:800;letter-spacing:-0.3px;\">YENİ ARAÇ TALEBİ</h1>\n                  </td>\n                  <td align=\"right\" style=\"vertical-align:top;\">\n                    <span style=\"display:inline-block;background-color:rgba(255,255,255,0.14);color:#FFFFFF;font-family:monospace;font-size:13px;font-weight:700;padding:6px 12px;border-radius:8px;border:1px solid rgba(255,255,255,0.2);\">\n                      #REQ-902644\n                    </span>\n                  </td>\n                </tr>\n              </table>\n            </td>\n          </tr>\n\n          <!-- Greeting -->\n          <tr>\n            <td style=\"padding:28px 32px 12px 32px;\">\n              <p style=\"margin:0;font-size:14px;color:#475569;\">Sayın <strong style=\"color:#092B60;font-weight:800;\">Deniz Lojistik</strong> Operasyon Yetkilisi,</p>\n              <p style=\"margin:8px 0 0 0;font-size:13px;line-height:1.6;color:#64748B;\">\n                Firmanıza atanmış olan araç tedarik operasyonu kapsamında aşağıdaki bildirim detayları oluşturulmuştur. Gizlilik politikası gereği bu bildirim yalnızca firmanıza özel kontenjan bilgilerini içerir.\n              </p>\n              \n            </td>\n          </tr>\n\n          <!-- Details Table -->\n          <tr>\n            <td style=\"padding:12px 32px 24px 32px;\">\n              <table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border:1px solid #E2E8F0;border-radius:12px;overflow:hidden;font-size:13px;\">\n                <tr style=\"background-color:#F8FAFC;\">\n                  <td style=\"padding:11px 16px;font-weight:700;color:#475569;width:38%;border-bottom:1px solid #E2E8F0;\">Firma Adı</td>\n                  <td style=\"padding:11px 16px;font-weight:800;color:#092B60;border-bottom:1px solid #E2E8F0;\">Deniz Lojistik</td>\n                </tr>\n                <tr>\n                  <td style=\"padding:11px 16px;font-weight:700;color:#475569;border-bottom:1px solid #E2E8F0;\">Talep Numarası</td>\n                  <td style=\"padding:11px 16px;font-family:monospace;font-weight:800;color:#0F172A;border-bottom:1px solid #E2E8F0;\">#REQ-902644</td>\n                </tr>\n                <tr style=\"background-color:#F8FAFC;\">\n                  <td style=\"padding:11px 16px;font-weight:700;color:#475569;border-bottom:1px solid #E2E8F0;\">Çıkış Tesisi</td>\n                  <td style=\"padding:11px 16px;font-weight:800;color:#0F172A;border-bottom:1px solid #E2E8F0;\">GEBZE ANA DEPO</td>\n                </tr>\n                <tr>\n                  <td style=\"padding:11px 16px;font-weight:700;color:#475569;border-bottom:1px solid #E2E8F0;\">Uğrak Noktaları</td>\n                  <td style=\"padding:11px 16px;font-weight:600;color:#334155;border-bottom:1px solid #E2E8F0;\">1. BURSA AKTARMA MERKEZİ</td>\n                </tr>\n                <tr style=\"background-color:#F8FAFC;\">\n                  <td style=\"padding:11px 16px;font-weight:700;color:#475569;border-bottom:1px solid #E2E8F0;\">Varış Tesisi</td>\n                  <td style=\"padding:11px 16px;font-weight:800;color:#0F172A;border-bottom:1px solid #E2E8F0;\">İZMİR BÖLGE DEPO</td>\n                </tr>\n                <tr>\n                  <td style=\"padding:11px 16px;font-weight:700;color:#475569;border-bottom:1px solid #E2E8F0;\">Araç Tipi</td>\n                  <td style=\"padding:11px 16px;font-weight:700;color:#092B60;border-bottom:1px solid #E2E8F0;\">Tır (13.60 Tenteli)</td>\n                </tr>\n                <tr style=\"background-color:#EFF6FF;\">\n                  <td style=\"padding:11px 16px;font-weight:800;color:#1E3A8A;border-bottom:1px solid #DBEAFE;\">Firmanıza Atanan Araç İhtiyacı</td>\n                  <td style=\"padding:11px 16px;font-weight:900;font-size:15px;color:#1D4ED8;border-bottom:1px solid #DBEAFE;\">1 Araç</td>\n                </tr>\n                <tr>\n                  <td style=\"padding:11px 16px;font-weight:700;color:#475569;border-bottom:1px solid #E2E8F0;\">Gerekli Tarih ve Saat</td>\n                  <td style=\"padding:11px 16px;font-weight:800;color:#0F172A;border-bottom:1px solid #E2E8F0;\">2026-11-12 • Saat 08:30</td>\n                </tr>\n                <tr style=\"background-color:#F8FAFC;\">\n                  <td style=\"padding:11px 16px;font-weight:700;color:#475569;\">Operasyon Açıklaması</td>\n                  <td style=\"padding:11px 16px;color:#334155;\">Acil sevkiyat hattı</td>\n                </tr>\n              </table>\n            </td>\n          </tr>\n\n          <!-- CTA Button -->\n          <tr>\n            <td align=\"center\" style=\"padding:4px 32px 28px 32px;\">\n              <a href=\"https://ais-dev-aparysydolqse2logjjvm3-872015695292.europe-west2.run.app/?requestId=k4FahLMMt76q0h5cdpId\" style=\"display:inline-block;background-color:#092B60;color:#FFD000;text-decoration:none;font-weight:800;font-size:13px;letter-spacing:0.4px;padding:14px 28px;border-radius:10px;\">\n                TEDARİKÇİ PANELİNE GİT →\n              </a>\n            </td>\n          </tr>\n\n          <!-- Footer -->\n          <tr>\n            <td style=\"background-color:#F8FAFC;padding:16px 32px;border-top:1px solid #E2E8F0;text-align:center;\">\n              <p style=\"margin:0;font-size:11px;color:#94A3B8;\">\n                Bu e-posta TEDARİK360 Otomatik Bildirim Servisi tarafından yalnızca <strong>Deniz Lojistik</strong> için oluşturulmuştur.\n              </p>\n            </td>\n          </tr>\n        </table>\n      </td>\n    </tr>\n  </table>\n</body>\n</html>",
+        "supplierName": "Deniz Lojistik"
+      },
+      {
+        "id": "log_1794250903515_7g5dp",
+        "isRead": true,
+        "read": true,
+        "status": "DELIVERED",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794250903,
+          "nanoseconds": 539000000
+        },
+        "recipient": "Deniz Lojistik (Web Push Kanalı)",
+        "eventType": "NEW_REQUEST",
+        "notificationId": "ntf_1794250903314_gujju",
+        "supplierId": "deniz-lojistik",
+        "body": "Deniz Lojistik (Web Push Kanalı)",
+        "isDeliveryLog": true,
+        "channel": "PUSH",
+        "supplierName": "Deniz Lojistik",
+        "requestNumber": "REQ-902644",
+        "requestId": "k4FahLMMt76q0h5cdpId",
+        "idempotencyKey": "NEW_REQUEST_k4FahLMMt76q0h5cdpId_deniz-lojistik_v1",
+        "title": "[LOG] PUSH - NEW_REQUEST"
+      },
+      {
+        "id": "ntf_1794250902832_ufuz9",
+        "isDeliveryLog": false,
+        "relatedRequestId": "k4FahLMMt76q0h5cdpId",
+        "read": false,
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794250902,
+          "nanoseconds": 840000000
+        },
+        "recipientRole": "SUPPLIER",
+        "recipientUserId": "usr-ayz_lojistik",
+        "message": "GEBZE ANA DEPO → İZMİR BÖLGE DEPO | Tır (13.60 Tenteli) (2 Araç) | Termin: 2026-11-12 08:30",
+        "body": "GEBZE ANA DEPO → İZMİR BÖLGE DEPO | Tır (13.60 Tenteli) (2 Araç) | Termin: 2026-11-12 08:30",
+        "isRead": false,
+        "idempotencyKey": "NEW_REQUEST_k4FahLMMt76q0h5cdpId_ayz-lojistik_v1",
+        "type": "NEW_REQUEST",
+        "notificationId": "ntf_1794250902832_ufuz9",
+        "recipientUid": "usr-ayz_lojistik",
+        "title": "YENİ ARAÇ TALEBİ (#REQ-902644)",
+        "relatedVehicleId": null,
+        "supplierId": "ayz-lojistik",
+        "requestId": "k4FahLMMt76q0h5cdpId"
+      },
+      {
+        "id": "ntf_1794250903314_gujju",
+        "notificationId": "ntf_1794250903314_gujju",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794250903,
+          "nanoseconds": 319000000
+        },
+        "message": "GEBZE ANA DEPO → İZMİR BÖLGE DEPO | Tır (13.60 Tenteli) (1 Araç) | Termin: 2026-11-12 08:30",
+        "recipientUid": "usr-deniz_lojistik",
+        "relatedRequestId": "k4FahLMMt76q0h5cdpId",
+        "read": false,
+        "idempotencyKey": "NEW_REQUEST_k4FahLMMt76q0h5cdpId_deniz-lojistik_v1",
+        "recipientRole": "SUPPLIER",
+        "relatedVehicleId": null,
+        "recipientUserId": "usr-deniz_lojistik",
+        "type": "NEW_REQUEST",
+        "requestId": "k4FahLMMt76q0h5cdpId",
+        "isRead": false,
+        "body": "GEBZE ANA DEPO → İZMİR BÖLGE DEPO | Tır (13.60 Tenteli) (1 Araç) | Termin: 2026-11-12 08:30",
+        "supplierId": "deniz-lojistik",
+        "isDeliveryLog": false,
+        "title": "YENİ ARAÇ TALEBİ (#REQ-902644)"
+      },
+      {
+        "id": "test_notif_check",
+        "body": "Test",
+        "read": true,
+        "title": "Test"
+      }
+    ],
+    "auditLogs": [
+      {
+        "id": "2JWkZ0XYdnjVFXhILOIl",
+        "newValues": {
+          "stopsCount": 0,
+          "distributionMode": "OPEN",
+          "totalQuantity": 1
+        },
+        "action": "Yeni Uğraklı Talep Oluşturuldu: REQ-851801 (OPEN)",
+        "collection": "vehicleRequests",
+        "actorUid": "usr-admin",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239851,
+          "nanoseconds": 903000000
+        },
+        "actorRole": "ADMIN",
+        "documentId": "xDsx6pHhI5yzPqh4k9lU"
+      },
+      {
+        "id": "3NNVCWSmuxAEarDPbdkG",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794244459,
+          "nanoseconds": 832000000
+        },
+        "actorRole": "OPERATOR",
+        "collection": "messages",
+        "action": "WHATSAPP Bağlantısı Başlatıldı (34ABC159)",
+        "documentId": "lCv0PuPSd7B9Goc0xlXv",
+        "newValues": {
+          "phone": "905454724790",
+          "actionStatus": "WHATSAPP_OPENED",
+          "channel": "WHATSAPP",
+          "plate": "34ABC159"
+        },
+        "actorUid": "usr-operator"
+      },
+      {
+        "id": "5cq9QvxvvP5HnBWCZRpE",
+        "action": "Yeni Uğraklı Talep Oluşturuldu: REQ-902644 (MANUAL)",
+        "documentId": "k4FahLMMt76q0h5cdpId",
+        "newValues": {
+          "stopsCount": 1,
+          "totalQuantity": 3,
+          "distributionMode": "MANUAL"
+        },
+        "actorUid": "usr-admin",
+        "collection": "vehicleRequests",
+        "actorRole": "ADMIN",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794250902,
+          "nanoseconds": 652000000
+        }
+      },
+      {
+        "id": "6Upv0Nb6TxVxKasebaSK",
+        "actorRole": "ADMIN",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239614,
+          "nanoseconds": 869000000
+        },
+        "action": "Yeni Uğraklı Talep Oluşturuldu: REQ-614828 (OPEN)",
+        "collection": "vehicleRequests",
+        "actorUid": "usr-admin",
+        "newValues": {
+          "stopsCount": 1,
+          "totalQuantity": 5,
+          "distributionMode": "OPEN"
+        },
+        "documentId": "YE1f9RBQeie8FOMbgsK4"
+      },
+      {
+        "id": "9A5u3N5IymdAIvSU8zPT",
+        "newValues": {
+          "plate": "34ABC123",
+          "channel": "WHATSAPP",
+          "phone": "905321234567",
+          "actionStatus": "WHATSAPP_OPENED"
+        },
+        "collection": "messages",
+        "action": "WHATSAPP Bağlantısı Başlatıldı (34ABC123)",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794244747,
+          "nanoseconds": 141000000
+        },
+        "actorRole": "OPERATOR",
+        "actorUid": "usr-operator",
+        "documentId": "SY9ov4u2eEPq1tNlbOAP"
+      },
+      {
+        "id": "CgZnSrP5L4YjMtRKIJlu",
+        "collection": "requestAssignments",
+        "actorUid": "usr-admin",
+        "actorRole": "ADMIN",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239004,
+          "nanoseconds": 676000000
+        },
+        "action": "Tedarikçi Kontenjanı Kesinleştirildi: 0 Araç",
+        "documentId": "POKukcgbrB4qt9voJ60V",
+        "newValues": {
+          "confirmedQuantity": 0
+        }
+      },
+      {
+        "id": "I9dJN5T7VcuYOgLm8hfp",
+        "collection": "vehicles",
+        "actorRole": "SUPPLIER",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794240565,
+          "nanoseconds": 163000000
+        },
+        "action": "Yeni Araç Bildirildi: FDSAFSAD",
+        "documentId": "lBUEgfeiKkKr5r6W5hYp",
+        "newValues": {
+          "actualArrival": "",
+          "createdAt": {
+            "type": "firestore/timestamp/1.0",
+            "seconds": 1794240565,
+            "nanoseconds": 163000000
+          },
+          "supplierId": "tekno-lojistik",
+          "updatedAt": {
+            "type": "firestore/timestamp/1.0",
+            "seconds": 1794240565,
+            "nanoseconds": 163000000
+          },
+          "requiredDate": "2026-11-09",
+          "assignmentId": "",
+          "destination": "AFYON TM",
+          "driverPhone": "+90 5454724790",
+          "routeStops": [],
+          "createdBy": "usr-tekno_lojistik",
+          "expectedArrival": "09:00",
+          "status": "ARAC_BILDIRILDI",
+          "vehicleType": "Kamyon (10 Teker)",
+          "plate": "FDSAFSAD",
+          "originFacility": "ADANA TM",
+          "requestId": "xDsx6pHhI5yzPqh4k9lU",
+          "driverName": "FDSAFASD"
+        },
+        "actorUid": "usr-tekno_lojistik"
+      },
+      {
+        "id": "IHUTDQ2YxxqXGEpHeK8U",
+        "action": "Tedarikçi Kontenjanı Kesinleştirildi: 0 Araç",
+        "newValues": {
+          "confirmedQuantity": 0
+        },
+        "collection": "requestAssignments",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794244850,
+          "nanoseconds": 390000000
+        },
+        "actorRole": "ADMIN",
+        "documentId": "DstRXVjINBkCZ3s2zPmX",
+        "actorUid": "usr-admin"
+      },
+      {
+        "id": "QwTRGyPBpl93vpE2o8qw",
+        "actorUid": "usr-operator",
+        "documentId": "u7vYskjiiiZaqjWiVLxm",
+        "actorRole": "OPERATOR",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794243563,
+          "nanoseconds": 881000000
+        },
+        "action": "WHATSAPP Mesajı Gönderildi (+90 5454724790)",
+        "collection": "messages",
+        "newValues": {
+          "content": "Aracınızın tahmini varış saati nedir?",
+          "channel": "WHATSAPP",
+          "phone": "+90 5454724790"
+        }
+      },
+      {
+        "id": "VmSnU9X9lqJmUveGZYmZ",
+        "actorRole": "OPERATOR",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794244363,
+          "nanoseconds": 971000000
+        },
+        "documentId": "SGUiyc3yJc01HTivODFw",
+        "newValues": {
+          "actionStatus": "WHATSAPP_OPENED",
+          "phone": "905321234567",
+          "channel": "WHATSAPP",
+          "plate": "34ABC123"
+        },
+        "action": "WHATSAPP Bağlantısı Başlatıldı (34ABC123)",
+        "collection": "messages",
+        "actorUid": "usr-operator"
+      },
+      {
+        "id": "XYLuYxnGHAT6QnN6z2tA",
+        "documentId": "d1",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794244285,
+          "nanoseconds": 388000000
+        },
+        "actorRole": "OPERATOR",
+        "action": "TEST",
+        "collection": "messages",
+        "actorUid": "usr-operator"
+      },
+      {
+        "id": "blYOW9crVepcIYTNHcLh",
+        "action": "Yeni Uğraklı Talep Oluşturuldu: REQ-838996 (OPEN)",
+        "documentId": "6HdVuK6GS4tvevzkKDUN",
+        "actorUid": "usr-admin",
+        "actorRole": "ADMIN",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794244839,
+          "nanoseconds": 2000000
+        },
+        "collection": "vehicleRequests",
+        "newValues": {
+          "totalQuantity": 5,
+          "distributionMode": "OPEN",
+          "stopsCount": 0
+        }
+      },
+      {
+        "id": "dmTkJm3dIYYxCbzSzafO",
+        "documentId": "kJsllcIIZIZLx6eDLBIx",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239569,
+          "nanoseconds": 703000000
+        },
+        "actorRole": "ADMIN",
+        "actorUid": "usr-admin",
+        "collection": "vehicleRequests",
+        "action": "Yeni Uğraklı Talep Oluşturuldu: REQ-569564 (MANUAL)",
+        "newValues": {
+          "stopsCount": 2,
+          "distributionMode": "MANUAL",
+          "totalQuantity": 4
+        }
+      },
+      {
+        "id": "dtkY3m2IDuegGY20JfvW",
+        "documentId": "gzMNSjRxPhxjXWUjE4ew",
+        "actorRole": "ADMIN",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794244794,
+          "nanoseconds": 490000000
+        },
+        "action": "Tedarikçi Kontenjanı Kesinleştirildi: 0 Araç",
+        "collection": "requestAssignments",
+        "actorUid": "usr-admin",
+        "newValues": {
+          "confirmedQuantity": 0
+        }
+      },
+      {
+        "id": "l14ECsjPEUejn2h1CSuM",
+        "newValues": {
+          "totalQuantity": 5,
+          "distributionMode": "MANUAL"
+        },
+        "collection": "vehicleRequests",
+        "actorRole": "ADMIN",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794238912,
+          "nanoseconds": 741000000
+        },
+        "documentId": "JbTDKqx8PDWpPZBw1E0b",
+        "action": "Yeni Talep Oluşturuldu: REQ-912672 (MANUAL)",
+        "actorUid": "usr-admin"
+      },
+      {
+        "id": "oMwxX7Je7LkkLQt9gnZx",
+        "collection": "vehicles",
+        "newValues": {
+          "actualArrival": "",
+          "createdBy": "usr-tekno_lojistik",
+          "driverName": "Engin Atanaz",
+          "plate": "34ABC159",
+          "driverPhone": "+90 5454724790",
+          "destination": "AFYON TM",
+          "description": "",
+          "updatedAt": {
+            "type": "firestore/timestamp/1.0",
+            "seconds": 1794242229,
+            "nanoseconds": 125000000
+          },
+          "createdAt": {
+            "type": "firestore/timestamp/1.0",
+            "seconds": 1794242229,
+            "nanoseconds": 125000000
+          },
+          "vehicleType": "TIR (Tenteli 13.60)",
+          "routeStops": [],
+          "assignmentId": "",
+          "requiredDate": "2026-11-09",
+          "status": "SUPPLIER_REPORTED",
+          "requestId": "xDsx6pHhI5yzPqh4k9lU",
+          "supplierId": "tekno-lojistik",
+          "revisionCount": 0,
+          "expectedArrival": "08:30",
+          "originFacility": "ADANA TM"
+        },
+        "action": "Yeni Araç Bildirildi: 34ABC159",
+        "actorUid": "usr-tekno_lojistik",
+        "actorRole": "SUPPLIER",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794242229,
+          "nanoseconds": 125000000
+        },
+        "documentId": "MEfqICjapZ2OFCuxaYGU"
+      },
+      {
+        "id": "rumcriYUGchmWuNQ4iwR",
+        "newValues": {
+          "actionStatus": "WHATSAPP_OPENED",
+          "phone": "905321234567",
+          "channel": "WHATSAPP",
+          "plate": "34ABC123"
+        },
+        "collection": "messages",
+        "actorRole": "OPERATOR",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794244404,
+          "nanoseconds": 344000000
+        },
+        "action": "WHATSAPP Bağlantısı Başlatıldı (34ABC123)",
+        "documentId": "p8e7exldfdC48sImRSFm",
+        "actorUid": "usr-operator"
+      },
+      {
+        "id": "va40ndxkDtUjNUhglJ0U",
+        "actorRole": "OPERATOR",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794244688,
+          "nanoseconds": 620000000
+        },
+        "collection": "messages",
+        "action": "WHATSAPP Bağlantısı Başlatıldı (34ABC159)",
+        "actorUid": "usr-operator",
+        "documentId": "gbIFTshFmsrYTfWd6KxF",
+        "newValues": {
+          "phone": "905454724790",
+          "actionStatus": "WHATSAPP_OPENED",
+          "plate": "34ABC159",
+          "channel": "WHATSAPP"
+        }
+      },
+      {
+        "id": "vwHOhpOd3yGuqpJMtlqB",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794242329,
+          "nanoseconds": 943000000
+        },
+        "actorRole": "ADMIN",
+        "documentId": "C5NAAeXjULQpWgZjBHQ0",
+        "action": "Yeni Uğraklı Talep Oluşturuldu: REQ-329935 (OPEN)",
+        "newValues": {
+          "stopsCount": 0,
+          "distributionMode": "OPEN",
+          "totalQuantity": 5
+        },
+        "actorUid": "usr-admin",
+        "collection": "vehicleRequests"
+      },
+      {
+        "id": "wbVhr5jyaxUjVhwftVgo",
+        "actorUid": "usr-admin",
+        "action": "Yeni Talep Oluşturuldu: REQ-985660 (OPEN)",
+        "collection": "vehicleRequests",
+        "newValues": {
+          "distributionMode": "OPEN",
+          "totalQuantity": 10
+        },
+        "actorRole": "ADMIN",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794238985,
+          "nanoseconds": 800000000
+        },
+        "documentId": "j10wmVXBzLwgsNNQ5c0N"
+      }
+    ],
+    "facilities": [
+      {
+        "id": "adana-tm",
+        "active": true,
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239595,
+          "nanoseconds": 355000000
+        },
+        "city": "Adana",
+        "facilityName": "ADANA TM"
+      },
+      {
+        "id": "afyon-tm",
+        "facilityName": "AFYON TM",
+        "city": "Afyonkarahisar",
+        "active": true,
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239595,
+          "nanoseconds": 232000000
+        }
+      },
+      {
+        "id": "aksaray-tm",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239596,
+          "nanoseconds": 353000000
+        },
+        "active": true,
+        "city": "Aksaray",
+        "facilityName": "AKSARAY TM"
+      },
+      {
+        "id": "ankara-tm",
+        "active": true,
+        "facilityName": "ANKARA TM",
+        "city": "Ankara",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239594,
+          "nanoseconds": 482000000
+        }
+      },
+      {
+        "id": "antalya-tm",
+        "active": true,
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239595,
+          "nanoseconds": 742000000
+        },
+        "facilityName": "ANTALYA TM",
+        "city": "Antalya"
+      },
+      {
+        "id": "avrupa-tm",
+        "city": "İstanbul",
+        "active": true,
+        "facilityName": "AVRUPA TM",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239594,
+          "nanoseconds": 603000000
+        }
+      },
+      {
+        "id": "bursa-beylikduzu",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239596,
+          "nanoseconds": 462000000
+        },
+        "active": true,
+        "facilityName": "BURSA BEYLİKDÜZÜ",
+        "city": "Bursa"
+      },
+      {
+        "id": "bursa-tm",
+        "city": "Bursa",
+        "active": true,
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239595,
+          "nanoseconds": 115000000
+        },
+        "facilityName": "BURSA TM"
+      },
+      {
+        "id": "diyarbakir-tm",
+        "active": true,
+        "city": "Diyarbakır",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239595,
+          "nanoseconds": 486000000
+        },
+        "facilityName": "DİYARBAKIR TM"
+      },
+      {
+        "id": "erzurum-tm",
+        "active": true,
+        "city": "Erzurum",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239594,
+          "nanoseconds": 973000000
+        },
+        "facilityName": "ERZURUM TM"
+      },
+      {
+        "id": "gaziantep-tm",
+        "active": true,
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239595,
+          "nanoseconds": 965000000
+        },
+        "facilityName": "GAZİANTEP TM",
+        "city": "Gaziantep"
+      },
+      {
+        "id": "gebze-tm",
+        "active": true,
+        "facilityName": "GEBZE TM",
+        "city": "Kocaeli",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239596,
+          "nanoseconds": 972000000
+        }
+      },
+      {
+        "id": "izmir-tm",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239594,
+          "nanoseconds": 722000000
+        },
+        "city": "İzmir",
+        "active": true,
+        "facilityName": "İZMİR TM"
+      },
+      {
+        "id": "kayseri-tm",
+        "city": "Kayseri",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239596,
+          "nanoseconds": 100000000
+        },
+        "active": true,
+        "facilityName": "KAYSERİ TM"
+      },
+      {
+        "id": "kocaeli-tm",
+        "active": true,
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239596,
+          "nanoseconds": 234000000
+        },
+        "city": "Kocaeli",
+        "facilityName": "KOCAELİ TM"
+      },
+      {
+        "id": "konya-tm",
+        "active": true,
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239595,
+          "nanoseconds": 852000000
+        },
+        "facilityName": "KONYA TM",
+        "city": "Konya"
+      },
+      {
+        "id": "malatya-tm-3144",
+        "active": true,
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239573,
+          "nanoseconds": 159000000
+        },
+        "facilityName": "MALATYA TM",
+        "city": "Malatya"
+      },
+      {
+        "id": "marmara-tm",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239594,
+          "nanoseconds": 844000000
+        },
+        "facilityName": "MARMARA TM",
+        "active": true,
+        "city": "Kocaeli"
+      },
+      {
+        "id": "marmara-tm-kocaeli",
+        "city": "Kocaeli",
+        "facilityName": "MARMARA TM - KOCAELİ",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239596,
+          "nanoseconds": 713000000
+        },
+        "active": true
+      },
+      {
+        "id": "merzifon",
+        "active": true,
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239597,
+          "nanoseconds": 211000000
+        },
+        "city": "Amasya",
+        "facilityName": "MERZİFON"
+      },
+      {
+        "id": "netlog-ankara",
+        "city": "Ankara",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239596,
+          "nanoseconds": 583000000
+        },
+        "active": true,
+        "facilityName": "NETLOG - ANKARA"
+      },
+      {
+        "id": "samsun-tm",
+        "facilityName": "SAMSUN TM",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239595,
+          "nanoseconds": 610000000
+        },
+        "city": "Samsun",
+        "active": true
+      },
+      {
+        "id": "test-fac",
+        "facilityName": "Test Hub",
+        "active": true,
+        "city": "Ankara"
+      },
+      {
+        "id": "trabzon",
+        "city": "Trabzon",
+        "active": true,
+        "facilityName": "TRABZON",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239597,
+          "nanoseconds": 324000000
+        }
+      },
+      {
+        "id": "van",
+        "active": true,
+        "facilityName": "VAN",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239597,
+          "nanoseconds": 101000000
+        },
+        "city": "Van"
+      },
+      {
+        "id": "xsa8-amazon-akyurt",
+        "active": true,
+        "city": "Ankara",
+        "facilityName": "XSA8 AMAZON (AKYURT)",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794239596,
+          "nanoseconds": 850000000
+        }
+      }
+    ],
+    "suppliers": [
+      {
+        "id": "alp-ozler-lojistik",
+        "emailVerified": true,
+        "emailEnabled": true,
+        "inAppEnabled": true,
+        "active": true,
+        "mandatoryCriticalPolicy": false,
+        "email": "operasyon@alpozler.com",
+        "phone": "+90 532 200 0002",
+        "contactPerson": "Murat Özler",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794238474,
+          "nanoseconds": 819000000
+        },
+        "pushEnabled": true,
+        "companyName": "Alp Özler Lojistik",
+        "eventPreferences": {
+          "VEHICLE_APPROVED": true,
+          "NEW_REQUEST": true,
+          "VEHICLE_REJECTED": true,
+          "REQUEST_CANCELLED": true,
+          "NEW_DEADLINE": true,
+          "REQUEST_REVISION": true
+        }
+      },
+      {
+        "id": "ayz-lojistik",
+        "taxNumber": "",
+        "pendingEmail": "",
+        "description": "Kurumsal lojistik çözüm ortağı",
+        "contactPerson": "Ayz Lojistik Yetkilisi",
+        "active": true,
+        "eventPreferences": {
+          "NEW_REQUEST": true,
+          "NEW_DEADLINE": true,
+          "REQUEST_REVISION": true,
+          "VEHICLE_APPROVED": true,
+          "REQUEST_CANCELLED": true,
+          "VEHICLE_REJECTED": true
+        },
+        "mandatoryCriticalPolicy": true,
+        "archived": false,
+        "email": "operasyon@ayzlojistik.com",
+        "username": "ayz_lojistik",
+        "address": "Türkiye",
+        "companyName": "Ayz Lojistik",
+        "pushEnabled": true,
+        "updatedAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794250902,
+          "nanoseconds": 448000000
+        },
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794248697,
+          "nanoseconds": 370000000
+        },
+        "phone": "+90 532 500 0005",
+        "inAppEnabled": true,
+        "emailEnabled": true,
+        "emailVerified": true,
+        "verificationCode": ""
+      },
+      {
+        "id": "deniz-lojistik",
+        "eventPreferences": {
+          "VEHICLE_APPROVED": true,
+          "VEHICLE_REJECTED": true,
+          "NEW_DEADLINE": true,
+          "NEW_REQUEST": true,
+          "REQUEST_REVISION": true,
+          "REQUEST_CANCELLED": true
+        },
+        "phone": "+90 532 100 0001",
+        "pushEnabled": true,
+        "mandatoryCriticalPolicy": false,
+        "companyName": "Deniz Lojistik",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794238474,
+          "nanoseconds": 584000000
+        },
+        "emailVerified": true,
+        "contactPerson": "Hakan Deniz",
+        "inAppEnabled": true,
+        "emailEnabled": true,
+        "active": true,
+        "email": "operasyon@denizlojistik.com"
+      },
+      {
+        "id": "ekol-lojistik",
+        "eventPreferences": {
+          "REQUEST_REVISION": true,
+          "REQUEST_CANCELLED": true,
+          "NEW_REQUEST": true,
+          "NEW_DEADLINE": true,
+          "VEHICLE_REJECTED": true,
+          "VEHICLE_APPROVED": true
+        },
+        "phone": "+90 532 400 0004",
+        "contactPerson": "Cem Kaya",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794238475,
+          "nanoseconds": 53000000
+        },
+        "emailVerified": true,
+        "emailEnabled": true,
+        "inAppEnabled": true,
+        "email": "tedarik@ekol.com",
+        "pushEnabled": true,
+        "active": true,
+        "companyName": "Ekol Lojistik",
+        "mandatoryCriticalPolicy": false
+      },
+      {
+        "id": "tekno-lojistik",
+        "email": "filo@teknolojistik.com",
+        "emailVerified": true,
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794238474,
+          "nanoseconds": 940000000
+        },
+        "companyName": "Tekno Lojistik",
+        "pushEnabled": true,
+        "mandatoryCriticalPolicy": false,
+        "active": true,
+        "emailEnabled": true,
+        "inAppEnabled": true,
+        "eventPreferences": {
+          "REQUEST_REVISION": true,
+          "REQUEST_CANCELLED": true,
+          "NEW_DEADLINE": true,
+          "NEW_REQUEST": true,
+          "VEHICLE_REJECTED": true,
+          "VEHICLE_APPROVED": true
+        },
+        "phone": "+90 532 300 0003",
+        "contactPerson": "Serkan Tekin"
+      }
+    ],
+    "users": [
+      {
+        "id": "test-user-1",
+        "role": "ADMIN",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794237960,
+          "nanoseconds": 278000000
+        },
+        "active": true,
+        "username": "admin"
+      },
+      {
+        "id": "usr-admin",
+        "fullName": "Sistem Yöneticisi",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794238022,
+          "nanoseconds": 456000000
+        },
+        "updatedAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794248583,
+          "nanoseconds": 209000000
+        },
+        "username": "admin",
+        "supplierId": null,
+        "salt": "119f40acc7578a2e664e1f99914155e5",
+        "passwordHash": "a54c6bae5769d7d7182664d751a7d698378ea745660d5f1167d1ded56fd158ca594a1d926d059856b20acec57f93c746ba69507962b3a8af2aeb47f862d39973",
+        "role": "ADMIN",
+        "uid": "usr-admin",
+        "active": true
+      },
+      {
+        "id": "usr-alp_ozler",
+        "supplierId": "alp-ozler-lojistik",
+        "username": "alp_ozler",
+        "role": "SUPPLIER",
+        "salt": "ae6f8996bfe9bd436566a0bb812927c4",
+        "active": true,
+        "fullName": "Alp Özler Lojistik Temsilcisi",
+        "updatedAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794238187,
+          "nanoseconds": 813000000
+        },
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794238142,
+          "nanoseconds": 194000000
+        },
+        "passwordHash": "4a0a5c2e9618b9307847ba9eb9de10b37b21455a00aada4e9fa0ecef935a73fe8675beddbc1eaa79896d66bbcf1be1edb472ec2ebf57677c6819306374c87500",
+        "uid": "usr-alp_ozler"
+      },
+      {
+        "id": "usr-ayz_lojistik",
+        "role": "SUPPLIER",
+        "salt": "2d81e5ec34facf2992c8f429f917c9fe",
+        "username": "ayz_lojistik",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794248697,
+          "nanoseconds": 190000000
+        },
+        "passwordHash": "c358bda7e4f42ed136b619329d932e061ea3203bd47018d97570ecc2e110e4865aae38267e1b27686f35d30c41145b893af70e30f3eb8cce4cf2bd7e903d3e8c",
+        "updatedAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794250902,
+          "nanoseconds": 608000000
+        },
+        "fullName": "Ayz Lojistik Temsilcisi",
+        "uid": "usr-ayz_lojistik",
+        "email": "operasyon@ayzlojistik.com",
+        "supplierId": "ayz-lojistik",
+        "active": true
+      },
+      {
+        "id": "usr-deniz_lojistik",
+        "passwordHash": "4cefad662b8098020eb61f315be6d5e1c70748378742c9331b7dce388e5f9bbf8c42c6f3f863292c4e9655b2ac84cca16bb91c508a7726682d82aaae2536b611",
+        "fullName": "Deniz Lojistik Temsilcisi",
+        "supplierId": "deniz-lojistik",
+        "updatedAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794248579,
+          "nanoseconds": 74000000
+        },
+        "username": "deniz_lojistik",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794238141,
+          "nanoseconds": 996000000
+        },
+        "uid": "usr-deniz_lojistik",
+        "active": true,
+        "salt": "3804dc9591a2284839e53f4d6d31888a",
+        "role": "SUPPLIER"
+      },
+      {
+        "id": "usr-ekol_lojistik",
+        "passwordHash": "0e1c4cb15ce8b91cf7f2b9f6678e226e2af5db98b3d1d10c9aaea3540504afbc666bf178cf8a3cbebb10888ef1effbbeec8b8b00283c7b44019082c59e2bed05",
+        "salt": "5152e159ddd5e6f1cb3f6b6709bcc6fb",
+        "active": true,
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794238142,
+          "nanoseconds": 547000000
+        },
+        "role": "SUPPLIER",
+        "updatedAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794238188,
+          "nanoseconds": 32000000
+        },
+        "username": "ekol_lojistik",
+        "uid": "usr-ekol_lojistik",
+        "supplierId": "ekol-lojistik",
+        "fullName": "Ekol Lojistik Temsilcisi"
+      },
+      {
+        "id": "usr-operator",
+        "role": "OPERATOR",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794238141,
+          "nanoseconds": 814000000
+        },
+        "supplierId": null,
+        "updatedAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794238187,
+          "nanoseconds": 532000000
+        },
+        "salt": "0f748cefaa4c64592948ef4b4428bacd",
+        "active": true,
+        "username": "operator",
+        "uid": "usr-operator",
+        "passwordHash": "e2562c3a7f794236b75bbc4bdca1df1cfadda3ed51aa4a6f95f550da8b72275afa3ad1b7f35c4eea8ed639f40f7bd17aaf52c974ba4df4fc75ffea550ec15f1e",
+        "fullName": "Operasyon Sorumlusu"
+      },
+      {
+        "id": "usr-tekno_lojistik",
+        "username": "tekno_lojistik",
+        "salt": "80e32f820a3acc25314aa1fccac534d0",
+        "uid": "usr-tekno_lojistik",
+        "fullName": "Tekno Lojistik Temsilcisi",
+        "role": "SUPPLIER",
+        "createdAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794238142,
+          "nanoseconds": 383000000
+        },
+        "updatedAt": {
+          "type": "firestore/timestamp/1.0",
+          "seconds": 1794238187,
+          "nanoseconds": 918000000
+        },
+        "supplierId": "tekno-lojistik",
+        "active": true,
+        "passwordHash": "dc4578f4f1822fc11b96ac0bb4b952ff5cc529ed7b677c16d587a80bc7fc264b5fad92cbcad36097effb932e47691a7651757235ddbbb23a624ba88d777e7914"
+      }
+    ]
+  }
+}

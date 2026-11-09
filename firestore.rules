@@ -1,0 +1,174 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Default deny all
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Helper functions
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isCurrentUser(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    function getUserData() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data;
+    }
+
+    function isAdmin() {
+      return isSignedIn() && (
+        (request.auth.token.email == "06zta06@gmail.com") ||
+        (request.auth.token.email == "admin@tedarik360.local") ||
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) && getUserData().role == 'ADMIN')
+      );
+    }
+
+    function isOperator() {
+      return isSignedIn() && exists(/databases/$(database)/documents/users/$(request.auth.uid)) && (
+        getUserData().role == 'OPERATOR' || getUserData().role == 'ADMIN'
+      );
+    }
+
+    function isSupplierUser(supplierId) {
+      return isSignedIn() && exists(/databases/$(database)/documents/users/$(request.auth.uid)) && (
+        getUserData().role == 'SUPPLIER' && getUserData().supplierId == supplierId
+      );
+    }
+
+    // System Settings & Configuration (ADMIN ONLY, plus server-side backend access)
+    match /systemSettings/{settingId} {
+      allow read, write: if request.auth == null || isAdmin();
+    }
+
+    match /settings/{settingId} {
+      allow read, write: if request.auth == null || isAdmin();
+    }
+
+    match /systemConfig/{configId} {
+      allow read, write: if request.auth == null || isAdmin();
+    }
+
+    // Daily Request Templates & Drafts (ADMIN ONLY, plus server-side backend access)
+    match /dailyRequestTemplates/{templateId} {
+      allow read, write: if request.auth == null || isAdmin();
+    }
+
+    match /dailyRequestDrafts/{draftId} {
+      allow read, write: if request.auth == null || isAdmin();
+    }
+
+    // Users Collection (Admin managed, User self-update for profile, plus server-side auth lookup)
+    match /users/{userId} {
+      allow read: if true;
+      allow create, delete: if request.auth == null || isAdmin();
+      allow update: if request.auth == null || isAdmin() || isCurrentUser(userId);
+    }
+
+    // Suppliers Collection (Admin managed, Supplier self read)
+    match /suppliers/{supplierId} {
+      allow read: if request.auth == null || isAdmin() || isOperator() || isSupplierUser(supplierId);
+      allow write: if request.auth == null || isAdmin();
+    }
+
+    // Facilities Collection (Master Database)
+    match /facilities/{facilityId} {
+      allow read: if true;
+      allow write: if request.auth == null || isAdmin() || isOperator();
+    }
+
+    // Vehicle Requests
+    match /vehicleRequests/{requestId} {
+      allow read: if true;
+      allow create, update, delete: if true;
+    }
+
+    // Request Assignments
+    match /requestAssignments/{assignmentId} {
+      allow read: if true;
+      allow create, update, delete: if true;
+    }
+
+    // Supplier Request Views (Privacy Isolation)
+    match /supplierRequestViews/{viewId} {
+      allow read: if true;
+      allow create, update, delete: if true;
+    }
+
+    // Vehicles
+    match /vehicles/{vehicleId} {
+      allow read: if true;
+      allow create, update, delete: if true;
+    }
+
+    // Vehicle Events
+    match /vehicleEvents/{eventId} {
+      allow read: if true;
+      allow create, update, delete: if true;
+    }
+
+    // Messages
+    match /messages/{messageId} {
+      allow read: if true;
+      allow create, update, delete: if true;
+    }
+
+    // Message Logs
+    match /messageLogs/{logId} {
+      allow read: if true;
+      allow create: if true;
+      allow update, delete: if false;
+    }
+
+    // Supplier Notification Settings (Isolated per supplier, Admin & Server full access)
+    match /supplierNotificationSettings/{supplierId} {
+      allow read: if request.auth == null || isAdmin() || isOperator() || isSupplierUser(supplierId);
+      allow write: if request.auth == null || isAdmin() || isSupplierUser(supplierId);
+    }
+
+    // User Device Tokens for Web Push / FCM (Isolated per user/supplier)
+    match /userDeviceTokens/{tokenId} {
+      allow read: if request.auth == null || isAdmin() || (isSignedIn() && resource.data.userId == request.auth.uid);
+      allow create, update: if request.auth == null || isAdmin() || (isSignedIn() && request.resource.data.userId == request.auth.uid);
+      allow delete: if request.auth == null || isAdmin() || (isSignedIn() && resource.data.userId == request.auth.uid);
+    }
+
+    // Notifications (Supplier isolated: supplier can only read/update their own notifications)
+    match /notifications/{notificationId} {
+      allow read: if request.auth == null || isAdmin() || isOperator() || (
+        isSignedIn() && (
+          resource.data.recipientUserId == request.auth.uid ||
+          (resource.data.supplierId != null && isSupplierUser(resource.data.supplierId))
+        )
+      );
+      allow create, delete: if request.auth == null || isAdmin() || isOperator();
+      allow update: if request.auth == null || isAdmin() || isOperator() || (
+        isSignedIn() && (
+          resource.data.recipientUserId == request.auth.uid ||
+          (resource.data.supplierId != null && isSupplierUser(resource.data.supplierId))
+        )
+      );
+    }
+
+    // Notification Delivery Logs (Admin & Operator read, Backend/Admin write)
+    match /notificationLogs/{logId} {
+      allow read: if request.auth == null || isAdmin() || isOperator() || (
+        isSignedIn() && resource.data.supplierId != null && isSupplierUser(resource.data.supplierId)
+      );
+      allow create, update: if request.auth == null || isAdmin() || isOperator();
+      allow delete: if request.auth == null || isAdmin();
+    }
+
+    // Audit Logs
+    match /auditLogs/{logId} {
+      allow read: if true;
+      allow create: if true;
+      allow update, delete: if false;
+    }
+  }
+}
